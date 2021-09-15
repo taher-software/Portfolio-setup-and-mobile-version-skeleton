@@ -1,6 +1,6 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet) 
 
-# Leaderboard API | Hit the API.
+# Portfolio: setup and mobile version skeleton
 
 For this repository, I've created templates and styling file in order to create my portfolio, in which I can ease to my future recruiter how can my profile match their needs.
 
@@ -31,7 +31,6 @@ $ cd Portfolio-setup-and-mobile-version-skeleton.git
 
 - Finally, run the next command in the terminal to see the web app in your local browser, or also, you can use Live Server in Visual Studio Code.
 
-```
 
 
 ### Prerequisites
