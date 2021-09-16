@@ -112,9 +112,10 @@ section footer {
   flex-wrap: nowrap;
 }
 
-div ul { 
-  display:flex; 
-  align-items: center;}
+div ul {
+  display: flex;
+  align-items: center;
+}
 
 li { list-style-type: none; }
 
