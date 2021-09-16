@@ -2,9 +2,9 @@
 
 # Portfolio: setup and mobile version skeleton
 
-For this repository, I've created templates and styling file in order to create my portfolio, in which I can ease to my future recruiter how can my profile match their needs.
+For this repository, I've created html templates and styling files in order to create my portfolio mobile version skeleton, in which I can ease to my future recruiter see the matching of my profile with his needs.
 
-<br><img src="src\img\leaderboard_image.PNG"><br>
+
 
 ## Built With 🔨
 
@@ -29,7 +29,7 @@ $ git clone git@github.com:Taher-web-dev/Portfolio-setup-and-mobile-version-skel
 $ cd Portfolio-setup-and-mobile-version-skeleton.git
 ```
 
-- Finally, run the next command in the terminal to see the web app in your local browser, or also, you can use Live Server in Visual Studio Code.
+- Finally, run diplay the index.html file in your local browser, or also, you can use Live Server in Visual Studio Code.
 
 
 
