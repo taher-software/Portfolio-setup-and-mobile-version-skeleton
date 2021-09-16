@@ -6,19 +6,20 @@ nav {
 
 nav a {
   text-decoration: none;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 30px;
-  color:#6070ff;
+  color: #6070ff;
   display: flex;
   align-items: center;
   text-align: center;
 }
 
-nav a:hover{text-decoration: underline;}
+nav a:hover {text-decoration: underline; }
 
 nav img {
   width: 45px;
   height: 30px;
   display: flex;
-  align-items: center;}
+  align-items: center;
+}
