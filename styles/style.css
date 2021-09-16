@@ -17,7 +17,7 @@ nav a {
 
 nav a:hover {
   text-decoration: underline;
-  text-decoration-color: blue; 
+  text-decoration-color: blue;
 }
 
 nav img {
@@ -44,6 +44,10 @@ section {
     125px 156px,
     127px 148px;
   background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
 }
 
 section h1 {
@@ -51,16 +55,11 @@ section h1 {
   font-weight: bold;
   font-size: 40px;
   color: #172b4d;
-  /*display: flex;
-  align-items: center;*/
   line-height: 52px;
-  /*position: relative;
-  top: 135px;
-  margin-left: 24px;
-  margin-right: 24px;*/
   text-align: start;
   margin: 0;
 }
+
 section p {
   font-family: Poppins, sans-serif;
   font-weight: normal;
@@ -69,16 +68,13 @@ section p {
   color: #344563;
   margin: 0px;
 }
-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 600px;
-}
 
 section p:hover {
   text-decoration: underline;
-  text-decoration-color: blue;}
+  text-decoration-color: blue;
+}
+
 section h1:hover {
   text-decoration: underline;
-  text-decoration-color: blue;}
+  text-decoration-color: blue;
+}
