@@ -15,11 +15,21 @@ nav a {
   text-align: center;
 }
 
-nav a:hover {text-decoration: underline; }
+nav a:hover { text-decoration: underline; }
 
 nav img {
   width: 45px;
   height: 30px;
   display: flex;
   align-items: center;
+}
+
+section {
+  height: 250px;
+  background-image: url("../statics/images/Ellipse 11.png"), url("../statics/images/Rectangle 4.png"),
+  url("../statics/images/Ellipse\ 3.png"),url("../statics/images/Ellipse\ 8.png"),
+  url("../statics/images/Ellipse\ 5.png"),url("../statics/images/Rectangle\ 7.png");
+  background-position: 19px 129px, 294px 118px, 323px 152px, 214px 110px, 125px 156px,
+  127px 148px;
+  background-repeat: no-repeat;
 }
