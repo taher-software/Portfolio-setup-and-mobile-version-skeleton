@@ -102,4 +102,14 @@ header h1:hover {
   border-radius: 50%;
 }
 
-#project_image { grid-row: 2 / 1 span;}
+#project_image { grid-row: 2 / 1 span; }
+
+#project_description {
+  grid-row: 3 / 1 span;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 24px;
+  color: #344563
+}
