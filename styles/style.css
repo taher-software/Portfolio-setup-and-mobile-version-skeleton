@@ -69,7 +69,6 @@ section h1 {
   line-height: 52px;
   text-align: start;
   margin: 0 24px;
-  text-align: start;
 }
 
 section p {
@@ -79,8 +78,6 @@ section p {
   line-height: 24px;
   color: #344563;
   margin-left: 24px;
-  margin-right: 24px;
-  margin-top: 12px;
   margin: 12px 24px 0 24px;
 }
 
