@@ -1,0 +1,41 @@
+.p { margin:0; }
+
+header {
+  margin : 18px 16px;
+  display: grid;
+  grid-template-columns:  calc(100% - 16.66%) 16.66%;
+  grid-template-rows: 1;
+  max-height: 60px;
+}
+
+header h1 {
+  grid-column: 1  / span 1;
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 32px;
+  color: #172b4d;
+}
+
+header div {
+  grid-column: 2 / span 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+header h1:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 4px;
+}
+
+.p div{
+  margin: 18px 16px;
+  display: grid;
+  grid-template-rows: 6;
+}
+#general_inf {
+    grid-row: 1 / span 1;
+    display: flex;
+}
