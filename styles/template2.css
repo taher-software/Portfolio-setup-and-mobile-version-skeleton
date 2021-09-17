@@ -36,6 +36,7 @@ header h1:hover {
   margin: 18px 16px;
   display: grid;
   grid-template-rows: 6;
+  grid-row-gap: 12px;
 }
 #general_inf {
     grid-row: 1 / span 1;
@@ -49,7 +50,6 @@ header h1:hover {
   font-size: 13px;
   line-height: 16px;
   display: flex;
-  /*justify-content: space-between;*/
 }
 
 #title {
@@ -101,3 +101,5 @@ header h1:hover {
   border : 3px solid #18a0fa;
   border-radius: 50%;
 }
+
+#project_image { grid-row: 2 / 1 span;}
