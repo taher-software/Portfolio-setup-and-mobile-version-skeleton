@@ -1,6 +1,6 @@
 #nav {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   margin-top: 50px;
 }
 
@@ -13,6 +13,7 @@
   display: flex;
   align-items: center;
   text-align: center;
+  margin-left: 24px;
 }
 
 #nav a:hover {
@@ -67,7 +68,8 @@ section h1 {
   color: #172b4d;
   line-height: 52px;
   text-align: start;
-  margin: 0;
+  margin: 0 24px;
+  text-align: start;
 }
 
 section p {
@@ -76,7 +78,10 @@ section p {
   font-size: 16px;
   line-height: 24px;
   color: #344563;
-  margin: 0;
+  margin-left: 24px;
+  margin-right: 24px;
+  margin-top: 12px;
+  margin: 12px 24px 0 24px;
 }
 
 section p:hover {
@@ -98,6 +103,7 @@ footer h3 {
   font-size: 16px;
   line-height: 24px;
   color: #7f8cff;
+  margin-left: 24px;
 }
 
 footer h3:hover {
@@ -109,16 +115,17 @@ footer h3:hover {
 section footer {
   display: flex;
   flex-direction: column;
-  flex-wrap: nowrap;
 }
 
 div ul {
   display: flex;
   align-items: center;
+  padding-left: 0;
+  margin-left: 24px;
 }
 
 li { list-style-type: none; }
 
-.icon { margin-right: 5px; }
+.icon { margin-right: 20px; }
 
 .icon:hover { background-color: #23a3fa; }
