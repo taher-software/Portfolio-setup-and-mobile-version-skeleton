@@ -33,17 +33,16 @@ header h1:hover {
 }
 
 .p section{
-  margin: 18px 16px;
+  margin: 0px 16px;
   display: grid;
-  grid-template-rows: 6;
-  grid-row-gap: 12px;
+  grid-template-rows: auto auto;
+  grid-row-gap: 6px;
+  height: 50%;
 }
 #general_inf {
-    grid-row: 1 / span 1;
-    display: flex;
-}
-
-.general_inf {
+  display: flex;
+  margin: 18px 16px;
+  max-height: 20px;
   font-family: Poppins, sans-serif ;
   font-style: normal;
   font-weight: 600;
@@ -76,7 +75,6 @@ header h1:hover {
     color: #7a869a;
     display: flex;
     align-items: center;
-    /*margin-right: 5px;*/
 }
 
 #title:hover {
@@ -102,14 +100,92 @@ header h1:hover {
   border-radius: 50%;
 }
 
-#project_image { grid-row: 2 / 1 span; }
+#project_image { grid-row: 1 / 1 span; }
 
 #project_description {
-  grid-row: 3 / 1 span;
+  grid-row: 2 / 1 span;
   font-family: Poppins;
   font-style: normal;
   font-weight: normal;
+  font-size: 12px;
+  line-height: 18px;
+  color: #344563;
+  margin-top: 0;
+  display: flex;
+}
+
+footer {
+  display: grid;
+  grid-template-rows: auto auto auto;
+  max-height: 30%;
+}
+
+#skills {
+  grid-row: 1 / 1 span;
+  display: flex;
+  margin: 0 16px;
+  width: 60%;
+  align-items: baseline;
+}
+
+#skills div {
+  background-color: #ebebfe;
+  border-radius: 25%;
+  display: flex;
+  justify-content: center;
+  margin-right: 5px;
+  flex: 1;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  color: #6070FF;
+}
+
+#skills div:hover {
+  border: 3px solid #18a0fa;
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#horizontal_line {
+  grid-row: 2 / span 1;
+  margin-top: 10px;
+  border: 1px solid #ebecf0;
+}
+
+#horizontal_line:hover { border: 2px solid #18a0fa;}
+
+#external_link {
+  grid-row: 3 / 1 span;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#external_link a {
+  text-decoration: none;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
   font-size: 15px;
-  line-height: 24px;
-  color: #344563
+  line-height: 20px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: space-around;
+  color: #396df2;
+  margin: 0 10px;
+  border: 1px solid #396df2;
+  width: 45%;
+  margin-top: 20px;
+  padding: 10px 0;
+}
+
+#external_link a span:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
 }
