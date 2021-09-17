@@ -3,67 +3,50 @@
   height: 100%;
 }
 
-header {
-  margin: 18px 16px;
-  display: grid;
-  grid-template-columns: calc(100% - 16.66%) 16.66%;
-  max-height: 60px;
-}
-
-header h1 {
-  grid-column: 1  / span 1;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  font-size: 32px;
-  color: #172b4d;
-  font-family: Poppins, sans-serif;
-  line-height: 44px;
-}
-
-header div {
-  grid-column: 2 / span 1;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-header h1:hover {
-  text-decoration: underline;
-  text-decoration-color: #18a0fa;
-  text-decoration-thickness: 4px;
-}
-
 .p div {
   margin: 0 16px;
   display: grid;
-  grid-template-rows: auto auto;
-  grid-row-gap: 6px;
-  height: 50%;
+  grid-template-rows: auto auto auto auto;
 }
 
+h1 {
+    grid-row: 2 / 1 span;
+    margin-top: 12px;
+    margin-bottom: 0;
+    font-weight: bold;
+    font-size: 32px;
+    color: #172b4d;
+    font-family: Poppins, sans-serif;
+    line-height: 44px;
+  }
+  
+  h1:hover {
+    text-decoration: underline;
+    text-decoration-color: #18a0fa;
+    text-decoration-thickness: 4px;
+  }
 #general_inf {
+  grid-row: 3 / 1 span;
   display: flex;
-  margin: 18px 16px;
-  max-height: 20px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 600;
   font-size: 13px;
-  line-height: 16px;
+  margin-top: 5px;
+  margin-left: 0px;
 }
 
 #title {
   color: #344563;
-  display: flex;
-  align-items: center;
   margin-right: 12px;
+  line-height: 16px;
 }
 
 .counter {
-  display: flex;
-  align-items: center;
   margin-right: 12px;
+  width: 8px;
+  height: 8px;
+  align-self: center;
 }
 
 #job-title {
@@ -102,69 +85,53 @@ header h1:hover {
   border-radius: 50%;
 }
 
-#project_image { grid-row: 1 / 1 span; }
+#project_image {
+  grid-row: 1 / 1 span;
+  margin-top: 16px;
+}
 
 #project_description {
-  grid-row: 2 / 1 span;
+  grid-row: 4 / 1 span;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 18px;
+  font-size: 15px;
+  line-height: 24px;
   color: #344563;
-  margin-top: 0;
+  margin-top: 5px;
   display: flex;
 }
 
 footer {
   display: grid;
-  grid-template-rows: auto auto auto;
-  max-height: 30%;
+  grid-template-rows: auto auto;
 }
 
 #skills {
   grid-row: 1 / 1 span;
   display: flex;
-  margin: 0 16px;
-  width: 60%;
   align-items: baseline;
+  justify-content: flex-start;
 }
 
-#skills div {
+#skills p {
   background-color: #ebebfe;
   border-radius: 25%;
-  display: flex;
-  justify-content: center;
-  margin-right: 5px;
-  flex: 1;
+  margin-right: 10px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
+  padding: 5px 15px;
 }
 
-#skills div:hover {
+#skills p:hover {
   border: 3px solid #18a0fa;
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
-}
-
-#horizontal_line {
-  grid-row: 2 / span 1;
-  margin-top: 10px;
-  border: 1px solid #ebecf0;
-}
-
-#horizontal_line:hover { border: 2px solid #18a0fa; }
-
-#external_link {
-  grid-row: 3 / 1 span;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 }
 
 #external_link a {
@@ -174,19 +141,16 @@ footer {
   font-weight: 500;
   font-size: 15px;
   line-height: 20px;
-  display: flex;
-  align-items: center;
-  text-align: center;
-  justify-content: space-around;
   color: #396df2;
-  margin: 0 10px;
   border: 1px solid #396df2;
-  width: 45%;
-  margin-top: 20px;
   padding: 10px 0;
+  text-align: center;
+  width: 45%;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 
-#external_link a span:hover {
+#external_link a:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
