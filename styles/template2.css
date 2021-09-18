@@ -41,6 +41,8 @@ h1:hover {
   color: #344563;
   margin-right: 12px;
   line-height: 16px;
+  position: relative;
+  top: 2px;
 }
 
 .counter {
@@ -113,9 +115,11 @@ footer {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
+  padding-left: 0;
+  margin-left: 16px;
 }
 
-.skills p {
+.skills li {
   background-color: #ebebfe;
   border-radius: 25%;
   margin-right: 10px;
@@ -126,6 +130,7 @@ footer {
   line-height: 16px;
   color: #6070ff;
   padding: 5px 15px;
+  list-style: none;
 }
 
 .skills p:hover {
@@ -195,6 +200,8 @@ footer {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
+  padding-left: 0;
+  margin-left: 16px;
 }
 
 #skills_2 {
@@ -202,6 +209,8 @@ footer {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
+  padding-left: 0;
+  margin-left: 16px;
 }
 
 #skills_3 {
@@ -209,6 +218,8 @@ footer {
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
+  padding-left: 0;
+  margin-left: 16px;
 }
 
 .project_description:hover {
