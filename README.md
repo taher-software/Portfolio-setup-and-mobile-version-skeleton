@@ -2,8 +2,9 @@
 
 # Portfolio: setup and mobile version skeleton
 
-For this repository, I've created html templates and styling files in order to create my portfolio mobile version skeleton, in which I can ease to my future recruiter see the matching of my profile with his needs.
+For this repository, I've created html templates and styling files in order to built my portfolio mobile version skeleton, in which I can ease to my future recruiter matching my profile with his needs.
 
+![home_page]("/statics/images/screenshot_home_page.png")
 
 
 ## Built With 🔨
@@ -12,6 +13,10 @@ For this repository, I've created html templates and styling files in order to c
 - HTML
 - CSS
 - Git & Github
+
+## Live Demo
+
+[Live Demo Link](https://taher-web-dev.github.io/Portfolio-setup-and-mobile-version-skeleton/)
 
 ### Install
 
