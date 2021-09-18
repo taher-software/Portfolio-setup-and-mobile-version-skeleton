@@ -29,7 +29,7 @@
   align-items: center;
 }
 
-section {
+#home_presentation {
   background-image:
     url("../statics/images/Ellipse 11.png"),
     url("../statics/images/Rectangle 4.png"),
@@ -61,7 +61,7 @@ section {
   height: 600px;
 }
 
-section h1 {
+#home_presentation h1 {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 40px;
@@ -71,7 +71,7 @@ section h1 {
   margin: 0 24px;
 }
 
-section p {
+#home_presentation p {
   font-family: Poppins, sans-serif;
   font-weight: normal;
   font-size: 16px;
@@ -80,13 +80,13 @@ section p {
   margin: 12px 24px 0 24px;
 }
 
-section p:hover {
+#home_presentation p:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
 }
 
-section h1:hover {
+#home_presentation h1:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
@@ -108,20 +108,21 @@ footer h3:hover {
   text-decoration-color: #23a3fa;
 }
 
-section footer {
+#home_presentation footer {
   display: flex;
   flex-direction: column;
 }
 
-div ul {
+#contact ul {
   display: flex;
   align-items: center;
   padding-left: 0;
   margin-left: 24px;
 }
 
-li { list-style-type: none; }
-
-.icon { margin-right: 20px; }
+.icon {
+  list-style-type: none;
+  margin-right: 20px;
+}
 
 .icon:hover { background-color: #23a3fa; }
