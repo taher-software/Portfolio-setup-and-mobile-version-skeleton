@@ -1,7 +1,6 @@
 #My_work {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
-
 }
 
 #p1 {
@@ -374,7 +373,7 @@ footer {
 
 #spec_name p {
   align-self: flex-start;
-  margin: 2px 50% 0 0px;
+  margin: 2px 50% 0 0;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -404,7 +403,7 @@ footer {
 
 #frameworks p {
   align-self: flex-start;
-  margin: 0 50% 0 0px;
+  margin: 0 50% 0 0;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -418,7 +417,6 @@ footer {
 #frameworks div { margin-top: 7px; }
 
 #l1 {
-  margin-top: 0;
   height: 5px;
   margin: 10px 0;
 }
@@ -434,7 +432,7 @@ footer {
 
 #sk p {
   align-self: flex-start;
-  margin: 0 72% 0 0px;
+  margin: 0 72% 0 0;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -452,7 +450,6 @@ footer {
 }
 
 #l2 {
-  margin-top: 0;
   height: 5px;
   margin: 10px 0;
 }
