@@ -387,16 +387,17 @@ footer {
   grid-row: 4 / 1 span;
   display: flex;
 }
+
 #sk p {
-    align-self: flex-start;
-    margin: 0 71% 0 15px;
-    font-family: Poppins, sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000;
-  }
+  align-self: flex-start;
+  margin: 0 71% 0 15px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
+}
   
 #sk div { margin-top: 7px; }
 
@@ -426,6 +427,7 @@ footer {
   color: #253858;
   margin-left: 15px;
 }
+
 #spec_name p:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
