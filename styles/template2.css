@@ -218,7 +218,7 @@ footer {
 }
 
 #about_me {
-  height:130vh;
+  height: 130vh;
   margin: 0;
   display: grid;
   grid-template-rows: 20% 20% 21% 39%;
@@ -226,13 +226,13 @@ footer {
 
 #about_me h1 {
   grid-row: 1 / 1 span;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
   font-size: 40px;
   line-height: 52px;
-  color: #172B4D;
-  display:flex;
+  color: #172b4d;
+  display: flex;
   align-items: flex-end;
 }
 
@@ -244,7 +244,7 @@ footer {
 
 #presentation {
   grid-row: 2 / 1 span;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
@@ -252,7 +252,7 @@ footer {
   color: #344563;
 }
 
-#presentation p:hover {
+#presentation:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
@@ -265,12 +265,12 @@ footer {
 }
 
 #profile_link h2 {
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7F8CFF;
+  color: #7f8cff;
 }
 
 #profile_link h2:hover {
@@ -296,7 +296,7 @@ footer {
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
-  color: #396DF2;
+  color: #396df2;
   border: 1px solid #396df2;
   border-radius: 5px;
   text-align: center;
@@ -313,7 +313,7 @@ footer {
 #my_skills {
   grid-row: 4 / 1 span;
   display: grid;
-  grid-template-rows: repeat(5,auto);
+  grid-template-rows: repeat(5, auto);
 }
 
 #languages_skills {
@@ -322,26 +322,27 @@ footer {
   flex-direction: column;
 }
 
- #spec_name {
+#spec_name {
   display: flex;
 }
+
 #spec_name p {
   align-self: flex-start;
   margin: 2px 50% 0 15px;
-  font-family: Poppins,sans-serif;
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 20px;
   line-height: 24px;
-  color: #000000;
+  color: #000;
 }
 
 #spec_name p:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
-  text-decoration-thickness: 3px;  
+  text-decoration-thickness: 3px; 
 }
-#spec_name div { align-self: flex-end;}
+#spec_name div { align-self: flex-end; }
 
 #spec_name div img { vertical-align: middle; }
 
@@ -353,13 +354,13 @@ footer {
 
 .pro {
   list-style: none;
-  display:flex;
+  display: flex;
   background: #F7F7F9;
   border-radius: 8px;
 }
 
-.pro p {
-  font-family: Poppins;
+#programmes .pro p {
+  font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-size: 15px;
@@ -368,74 +369,76 @@ footer {
   margin-left: 15px;
 }
 
-.pro p:hover {
+#programmes .pro p:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
 }
+
 #frameworks {
   grid-row: 2 / 1 span;
   display: flex;
 }
 
 #frameworks p {
-    align-self: flex-start;
-    margin: 0 50% 0 15px;
-    font-family: Poppins,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
+  align-self: flex-start;
+  margin: 0 50% 0 15px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
 }
 
-#frameworks div { margin-top: 7px;}
+#frameworks div { margin-top: 7px; }
 
 #frameworks p:hover {
-    text-decoration: underline;
-    text-decoration-color: #18a0fa;
-    text-decoration-thickness: 3px;
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
 }
 
-#l1 { 
+#l1 {
   grid-row: 3 / 1 span;
   margin-top: 0;
   height: 5px;
 }
 
 #l1 hr {
-  background: #DFE1E6;
+  background: #dfe1e6;
   height: 1px;
 }
 
-#l1 hr:hover { 
+#l1 hr:hover {
   background-color: #18a0fa;
   color: #18a0fa;
 }
 
 #sk {
   grid-row: 4 / 1 span;
-  display:flex;
+  display: flex;
 }
 
 #sk p {
-    align-self: flex-start;
-    margin: 0 71% 0 15px;
-    font-family: Poppins,sans-serif;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 20px;
-    line-height: 24px;
-    color: #000000;
+  align-self: flex-start;
+  margin: 0 71% 0 15px;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000;
 }
 
 #sk div { margin-top: 7px; }
 
 #sk p:hover {
-    text-decoration: underline;
-    text-decoration-color: #18a0fa;
-    text-decoration-thickness: 3px;
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
 }
+
 #l2 {
   grid-row: 5 / 1 span;
   margin-top: 0;
@@ -443,11 +446,11 @@ footer {
 }
 
 #l2 hr {
-    background: #DFE1E6;
-    height: 1px;
+  background: #dfe1e6;
+  height: 1px;
 }
-  
-#l2 hr:hover { 
-    background-color: #18a0fa;
-    color: #18a0fa;
+
+#l2 hr:hover {
+  background-color: #18a0fa;
+  color: #18a0fa;
 }
