@@ -230,7 +230,7 @@ footer {
 
 #about_me {
   height: 130vh;
-  margin: 0;
+  margin: 0 0 0 16px;
   display: grid;
   grid-template-rows: 20% 20% 21% 39%;
 }
