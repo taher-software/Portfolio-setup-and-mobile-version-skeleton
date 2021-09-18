@@ -337,11 +337,6 @@ footer {
   color: #000;
 }
 
-#spec_name p:hover {
-  text-decoration: underline;
-  text-decoration-color: #18a0fa;
-  text-decoration-thickness: 3px; 
-}
 #spec_name div { align-self: flex-end; }
 
 #spec_name div img { vertical-align: middle; }
@@ -355,7 +350,7 @@ footer {
 .pro {
   list-style: none;
   display: flex;
-  background: #F7F7F9;
+  background: #f7f7f9;
   border-radius: 8px;
 }
 
@@ -367,12 +362,6 @@ footer {
   line-height: 20px;
   color: #253858;
   margin-left: 15px;
-}
-
-#programmes .pro p:hover {
-  text-decoration: underline;
-  text-decoration-color: #18a0fa;
-  text-decoration-thickness: 3px;
 }
 
 #frameworks {
@@ -393,12 +382,6 @@ footer {
 
 #frameworks div { margin-top: 7px; }
 
-#frameworks p:hover {
-  text-decoration: underline;
-  text-decoration-color: #18a0fa;
-  text-decoration-thickness: 3px;
-}
-
 #l1 {
   grid-row: 3 / 1 span;
   margin-top: 0;
@@ -408,11 +391,6 @@ footer {
 #l1 hr {
   background: #dfe1e6;
   height: 1px;
-}
-
-#l1 hr:hover {
-  background-color: #18a0fa;
-  color: #18a0fa;
 }
 
 #sk {
@@ -448,6 +426,29 @@ footer {
 #l2 hr {
   background: #dfe1e6;
   height: 1px;
+}
+
+#spec_name p:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#programmes .pro p:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#frameworks p:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#l1 hr:hover {
+  background-color: #18a0fa;
+  color: #18a0fa;
 }
 
 #l2 hr:hover {
