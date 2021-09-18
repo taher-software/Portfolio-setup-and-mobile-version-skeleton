@@ -4,7 +4,7 @@
 
 For this repository, I've created html templates and styling files in order to built my portfolio mobile version skeleton, in which I can ease to my future recruiter matching my profile with his needs.
 
-![home_page]("./statics/images/screenshot_home_page.png")
+![home_page]("statics/images/screenshot_home_page.png")
 
 
 ## Built With 🔨
