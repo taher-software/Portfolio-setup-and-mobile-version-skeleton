@@ -19,7 +19,7 @@ h1 {
   font-family: Poppins, sans-serif;
   line-height: 44px;
 }
-  
+
 h1:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
@@ -37,7 +37,7 @@ h1:hover {
   margin-left: 0;
 }
 
-#title {
+.title {
   color: #344563;
   margin-right: 12px;
   line-height: 16px;
@@ -50,32 +50,32 @@ h1:hover {
   align-self: center;
 }
 
-#job-title {
+.job-title {
   color: #7a869a;
   display: flex;
   align-items: center;
   margin-right: 12px;
 }
 
-#year {
+.year {
   color: #7a869a;
   display: flex;
   align-items: center;
 }
 
-#title:hover {
+.title:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
 }
 
-#year:hover {
+.year:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
 }
 
-#job-title:hover {
+.job-title:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
@@ -86,12 +86,12 @@ h1:hover {
   border-radius: 50%;
 }
 
-#project_image {
+.project_image {
   grid-row: 1 / 1 span;
   margin-top: 16px;
 }
 
-#project_description {
+.project_description {
   grid-row: 4 / 1 span;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -108,14 +108,14 @@ footer {
   grid-template-rows: auto auto;
 }
 
-#skills {
+#skills_0 {
   grid-row: 1 / 1 span;
   display: flex;
   align-items: baseline;
   justify-content: flex-start;
 }
 
-#skills p {
+.skills p {
   background-color: #ebebfe;
   border-radius: 25%;
   margin-right: 10px;
@@ -128,14 +128,14 @@ footer {
   padding: 5px 15px;
 }
 
-#skills p:hover {
+.skills p:hover {
   border: 3px solid #18a0fa;
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
 }
 
-#external_link a {
+.external_link a {
   text-decoration: none;
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -151,8 +151,303 @@ footer {
   margin-top: 15px;
 }
 
-#external_link a:hover {
+.external_link a:hover {
   text-decoration: underline;
   text-decoration-color: #18a0fa;
   text-decoration-thickness: 3px;
+}
+
+#general_inf_1 {
+  grid-row: 3 / 1 span;
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+#general_inf_2 {
+  grid-row: 3 / 1 span;
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+#general_inf_3 {
+  grid-row: 3 / 1 span;
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 0;
+}
+
+#skills_1 {
+  grid-row: 1 / 1 span;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+#skills_2 {
+  grid-row: 1 / 1 span;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+#skills_3 {
+  grid-row: 1 / 1 span;
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+}
+
+.project_description:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#about_me {
+  height:130vh;
+  margin: 0;
+  display: grid;
+  grid-template-rows: 20% 20% 21% 39%;
+}
+
+#about_me h1 {
+  grid-row: 1 / 1 span;
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172B4D;
+  display:flex;
+  align-items: flex-end;
+}
+
+#about_me h1:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#presentation {
+  grid-row: 2 / 1 span;
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+}
+
+#presentation p:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#profile_link {
+  grid-row: 3 / 1 span;
+  display: flex;
+  flex-direction: column;
+}
+
+#profile_link h2 {
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7F8CFF;
+}
+
+#profile_link h2:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#profile_link ul {
+  display: flex;
+  padding-left: 0;
+}
+
+#profile_link ul li {
+  list-style: none;
+  margin-right: 12px;
+}
+
+#my_resume {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 24px;
+  color: #396DF2;
+  border: 1px solid #396df2;
+  border-radius: 5px;
+  text-align: center;
+  padding: 10px 0;
+  align-self: baseline;
+}
+
+#my_resume:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+
+#my_skills {
+  grid-row: 4 / 1 span;
+  display: grid;
+  grid-template-rows: repeat(5,auto);
+}
+
+#languages_skills {
+  grid-row: 1 / 1 span;
+  display: flex;
+  flex-direction: column;
+}
+
+ #spec_name {
+  display: flex;
+}
+#spec_name p {
+  align-self: flex-start;
+  margin: 2px 50% 0 15px;
+  font-family: Poppins,sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #000000;
+}
+
+#spec_name p:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;  
+}
+#spec_name div { align-self: flex-end;}
+
+#spec_name div img { vertical-align: middle; }
+
+#programmes {
+  display: flex;
+  flex-direction: column;
+  padding-left: 0;
+}
+
+.pro {
+  list-style: none;
+  display:flex;
+  background: #F7F7F9;
+  border-radius: 8px;
+}
+
+.pro p {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 20px;
+  color: #253858;
+  margin-left: 15px;
+}
+
+.pro p:hover {
+  text-decoration: underline;
+  text-decoration-color: #18a0fa;
+  text-decoration-thickness: 3px;
+}
+#frameworks {
+  grid-row: 2 / 1 span;
+  display: flex;
+}
+
+#frameworks p {
+    align-self: flex-start;
+    margin: 0 50% 0 15px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#frameworks div { margin-top: 7px;}
+
+#frameworks p:hover {
+    text-decoration: underline;
+    text-decoration-color: #18a0fa;
+    text-decoration-thickness: 3px;
+}
+
+#l1 { 
+  grid-row: 3 / 1 span;
+  margin-top: 0;
+  height: 5px;
+}
+
+#l1 hr {
+  background: #DFE1E6;
+  height: 1px;
+}
+
+#l1 hr:hover { 
+  background-color: #18a0fa;
+  color: #18a0fa;
+}
+
+#sk {
+  grid-row: 4 / 1 span;
+  display:flex;
+}
+
+#sk p {
+    align-self: flex-start;
+    margin: 0 71% 0 15px;
+    font-family: Poppins,sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 24px;
+    color: #000000;
+}
+
+#sk div { margin-top: 7px; }
+
+#sk p:hover {
+    text-decoration: underline;
+    text-decoration-color: #18a0fa;
+    text-decoration-thickness: 3px;
+}
+#l2 {
+  grid-row: 5 / 1 span;
+  margin-top: 0;
+  height: 5px;
+}
+
+#l2 hr {
+    background: #DFE1E6;
+    height: 1px;
+}
+  
+#l2 hr:hover { 
+    background-color: #18a0fa;
+    color: #18a0fa;
 }
