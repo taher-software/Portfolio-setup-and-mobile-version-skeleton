@@ -151,14 +151,13 @@ footer {
 }
 
 #skills_0 {
-  display: flex;
   align-items: baseline;
-  justify-content: flex-start;
   padding-left: 0;
   margin-left: 16px;
 }
 
 .skills li {
+  float: left;
   background-color: #ebebfe;
   border-radius: 25%;
   margin-right: 10px;
@@ -237,9 +236,7 @@ footer {
 }
 
 #skills_1 {
-  display: flex;
   align-items: baseline;
-  justify-content: flex-start;
   padding-left: 0;
   margin-left: 16px;
 }
