@@ -1,3 +1,172 @@
+#nav {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 50px;
+}
+
+#nav a {
+  text-decoration: none;
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 30px;
+  color: #6070ff;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-left: 24px;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 2px;
+}
+
+#nav nav {
+  width: 45px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+@media screen and (min-width: 768px) {
+  #nav {
+    margin-top: 0;
+    justify-content: center;
+  }
+  
+  .logo {
+    margin-right: 40%;
+  }
+  #nav nav {
+    display:none;
+  }
+  .internal-link {
+    display: flex;
+    list-style: none;
+    text-decoration:none;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+}
+#home_presentation {
+  background-image:
+    url("../statics/images/Ellipse 11.png"),
+    url("../statics/images/Rectangle 4.png"),
+    url("../statics/images/Ellipse\ 3.png"),
+    url("../statics/images/Ellipse\ 8.png"),
+    url("../statics/images/Ellipse\ 5.png"),
+    url("../statics/images/Rectangle\ 7.png"),
+    url("../statics/images/Ellipse 12.png"),
+    url("../statics/images/Ellipse 4.png"),
+    url("../statics/images/Rectangle\ 5.png"),
+    url("../statics/images/Ellipse\ 13.png"),
+    url("../statics/images/Ellipse\ 15.png");
+  background-position:
+    19px 79px,
+    294px 68px,
+    323px 102px,
+    214px 110px,
+    125px 106px,
+    127px 98px,
+    370px 385px,
+    290px 509px,
+    240px 507px,
+    357px 392px,
+    106px 497px;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 600px;
+}
+
+@media screen and (min-width: 768px) {
+  #home_presentation{
+    height: 916px;
+    background-position:
+    65px 191px,
+    1146px 118px,
+    1175px 152px,
+    379px 164px,
+    692px 248px,
+    691px 239px,
+    253px 768px,
+    839px 757px,
+    800px 758px,
+    240px 778px,
+    253px 768px;
+}
+}
+#home_presentation h1 {
+  font-family: Poppins, sans-serif;
+  font-weight: bold;
+  font-size: 40px;
+  color: #172b4d;
+  line-height: 52px;
+  text-align: start;
+  margin: 0 24px;
+}
+
+#home_presentation p {
+  font-family: Poppins, sans-serif;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  margin: 12px 24px 0 24px;
+}
+
+#home_presentation p:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 2px;
+}
+
+#home_presentation h1:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 2px;
+}
+
+footer h3 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 24px;
+}
+
+footer h3:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #23a3fa;
+}
+
+#home_presentation footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#contact ul {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  margin-left: 24px;
+}
+
+.icon {
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.icon:hover { background-color: #23a3fa; }
+
 #My_work {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
@@ -267,7 +436,6 @@ footer {
 }
 
 #about_me {
-  height: 130vh;
   margin: 0 0 0 16px;
   display: flex;
   flex-direction: column;
@@ -502,6 +670,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin-top: 100px;
 }
 
 .contact-title {
