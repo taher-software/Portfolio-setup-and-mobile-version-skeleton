@@ -504,7 +504,7 @@ footer {
   align-items: center;
 }
 
-.form-section h2 {
+.contact-title {
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: bold;
@@ -513,7 +513,7 @@ footer {
   color: #fff;
 }
 
-.form-section p {
+.contact-parag {
   font-family: Poppins, sans-serif;
   font-size: 20px;
   line-height: 28px;
@@ -543,10 +543,10 @@ footer {
 }
 
 .contact textarea {
-  font-family: Poppins;
+  font-family: Poppins, sans-serif;
   font-size: 15px;
   line-height: 24px;
-  color: #B3BAC5;
+  color: #b3bac5;
   padding: 15px;
   border-radius: 12px;
   border: none;
@@ -561,7 +561,7 @@ footer {
   align-items: center;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070FF;
+  color: #6070ff;
   align-self: flex-start;
   padding: 20px 35px;
   border-radius: 12px;
@@ -587,7 +587,3 @@ footer {
   color: #fff;
 }
 
-.contact button:disable {
-  background-color: #c1c7d0;
-  color: #5e6c84;
-}
