@@ -29,7 +29,7 @@
   align-items: center;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
   #nav {
     margin-top: 0;
     justify-content: center;
@@ -84,24 +84,27 @@
   height: 600px;
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 750px) {
   #home_presentation{
     height: 916px;
     background-position:
-    65px 191px,
-    1146px 118px,
-    1175px 152px,
+    0px 57px,
+    850px 30px,
+    880px 62px,
     379px 164px,
-    692px 248px,
-    691px 239px,
-    253px 768px,
-    839px 757px,
-    800px 758px,
-    240px 778px,
+    300px 79px,
+    299px 70px,
+    13px 450px,
+    600px 450px,
+    559px 451px,
+    0 460px,
     253px 768px;
+    margin-left: 260px;
+    padding-top: 150px;
+    justify-content: stretch;
+  }
 }
-}
-#home_presentation h1 {
+.short-presentation {
   font-family: Poppins, sans-serif;
   font-weight: bold;
   font-size: 40px;
@@ -126,7 +129,7 @@
   text-decoration-thickness: 2px;
 }
 
-#home_presentation h1:hover {
+.short-presentation:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
