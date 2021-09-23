@@ -78,7 +78,7 @@
     height: 100vh;
   }
 
-  #home_presentation{
+  #home_presentation {
     height: 916px;
     background-position:
       0 57px,
@@ -137,11 +137,6 @@ footer h3:hover {
   text-decoration: underline;
   text-decoration-thickness: 2px;
   text-decoration-color: #23a3fa;
-}
-
-#home_presentation footer {
-  display: flex;
-  flex-direction: column;
 }
 
 #contact ul {
@@ -224,7 +219,7 @@ footer h3:hover {
     width: 15%;
   }
 
-  #p2 footer .skills { margin-left: 0;}
+  #p2 footer .skills { margin-left: 0; }
 }
 
 #p3 {
@@ -255,7 +250,7 @@ footer h3:hover {
     margin-left: 0;
     width: 15%;
   }
-  
+
   #p3 footer .skills { margin-left: 0; }
 }
 
@@ -381,6 +376,11 @@ h1:hover {
 }
 
 .general footer {
+  display: flex;
+  flex-direction: column;
+}
+
+#home_presentation footer {
   display: flex;
   flex-direction: column;
 }
