@@ -1,3 +1,7 @@
+.home-page{
+  height:100vh;
+}
+
 #nav {
   display: flex;
   justify-content: space-between;
@@ -21,17 +25,28 @@
     justify-content: center;
   }
 
-  .logo {
-    margin-right: 40%;
+  header #nav  .logo {
+    margin-right: 30%;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
   }
 
   #nav nav {
     display: none;
   }
 
-  .internal-link {
-    display: flex;
+  #nav .internal-link { 
+    display: flex; 
+    justify-content: space-between;
+    min-width: 190px;
+  }
+
+  #nav .internal-link li {
     list-style: none;
+  }
+  #nav .internal-link li a {
     text-decoration: none;
     font-family: Poppins, sans-serif;
     font-weight: 500;
@@ -167,6 +182,9 @@ footer h3:hover {
 }
 
 @media screen and (min-width: 750px) {
+  #My_work {
+    margin-top: 100px;
+  }
   #p1 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -286,7 +304,7 @@ footer h3:hover {
   #p4 footer .skills { margin-left: 0; }
 }
 
-h1 {
+h3 {
   margin-top: 12px;
   margin-bottom: 0;
   font-weight: bold;
@@ -441,7 +459,7 @@ h1:hover {
   text-decoration-thickness: 3px;
 }
 
-#nav a {
+#nav .logo {
   text-decoration: none;
   font-family: Poppins, sans-serif;
   font-weight: bold;
@@ -896,7 +914,7 @@ h1:hover {
   color: #fff;
 }
 
-#nav a:hover {
+#nav .logo:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
