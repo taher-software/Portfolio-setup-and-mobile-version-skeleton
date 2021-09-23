@@ -187,13 +187,13 @@ footer h3:hover {
   grid-row: 1 / 1 span;
   display: flex;
   flex-direction: column;
+  margin-bottom: 100px;
 }
 
 @media screen and (min-width:750px) {
   #p1 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
   }
 
   .project_image {
@@ -225,7 +225,7 @@ footer h3:hover {
   #p2 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
+    margin-bottom: 100px;
   }
 
   .project_image {
@@ -257,7 +257,7 @@ footer h3:hover {
   #p3 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
+    margin-bottom: 100px;
   }
 
   .project_image {
@@ -289,7 +289,7 @@ footer h3:hover {
   #p4 {
     display: grid;
     grid-template-columns: 50% 50%;
-    grid-gap: 10px;
+    margin-bottom: 100px;
   }
 
   .project_image {
@@ -526,6 +526,26 @@ footer {
   flex-direction: column;
 }
 
+@media screen and (min-width: 750px) {
+  #about_me {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .data-inf {
+    grid-column: 1 / span 1;
+  }
+
+  #my_skills {
+    grid-column: 2 / span 1;
+  }
+  
+  #spec_name { justify-content: space-between; }
+
+  #frameworks { justify-content: space-between; }
+
+  #sk { justify-content: space-between;}
+}
 #about_me h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
