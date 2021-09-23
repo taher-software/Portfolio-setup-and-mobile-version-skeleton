@@ -6,6 +6,8 @@
   display: flex;
   justify-content: space-between;
   margin-top: 50px;
+  animation-name: entry_animation;
+  animation-duration: 2s;
 }
 
 #nav nav {
@@ -920,4 +922,17 @@ h1:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
+}
+
+@keyframes entry_animation {
+  from {
+    height: 0;
+    opacity: 0;
+    margin-top: -100px;
+  }
+  to {
+     height: 100%;
+     opacity: 1;
+     margin-top: 0;
+  }
 }
