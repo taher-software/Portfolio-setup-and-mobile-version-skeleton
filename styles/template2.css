@@ -772,9 +772,44 @@ h1:hover {
 .form-section {
   background: url("../statics/images/Contact_me.png");
   display: flex;
+  justify-content: center;
+  margin-top: 100px;
+}
+
+.wrap {
+  display: flex;
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
+}
+@media screen and (min-width: 750px) {
+  .wrap { 
+    justify-content: center;
+    width: 50%;
+    height: 25%;
+    margin-bottom: 200px;
+  }
+  
+  .contact-title { margin-bottom: 0; }
+
+  .wrap .contact-parag { margin-bottom: 20px;}
+
+  .contact {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrap .contact button {
+    align-self: center;
+    padding: 10px;
+  }
+
+  .bottom-bar { display: none; }
+
+  .contact textarea {
+    width: 309px;
+    height: 100px;
+  }
 }
 
 .contact-title {
