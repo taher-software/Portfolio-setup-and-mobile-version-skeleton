@@ -221,10 +221,29 @@ footer h3:hover {
   flex-direction: column;
 }
 
-#p2 #introd_2 {
-  margin: 0 16px;
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width:750px) {
+  #p2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+   
+  #general_inf_1 {
+    grid-column: 2 / 1 span;
+  }
+
+  #p2 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+  
+  #p2 footer .skills { margin-left: 0;}
 }
 
 #p3 {
@@ -234,10 +253,29 @@ footer h3:hover {
   flex-direction: column;
 }
 
-#p3 #introd_3 {
-  margin: 0 16px;
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width:750px) {
+  #p3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+   
+  #general_inf_2 {
+    grid-column: 2 / 1 span;
+  }
+
+  #p3 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+  
+  #p3 footer .skills { margin-left: 0;}
 }
 
 #p4 {
@@ -247,10 +285,29 @@ footer h3:hover {
   flex-direction: column;
 }
 
-#p4 #introd_4 {
-  margin: 0 16px;
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width:750px) {
+  #p4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+   
+  #general_inf_3 {
+    grid-column: 2 / 1 span;
+  }
+
+  #p4 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+  
+  #p4 footer .skills { margin-left: 0;}
 }
 
 h1 {
