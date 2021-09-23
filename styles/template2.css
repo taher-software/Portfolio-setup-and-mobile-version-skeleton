@@ -29,6 +29,10 @@
   align-items: center;
 }
 
+.internal-link {
+  display: none;
+}
+
 @media screen and (min-width: 750px) {
   #nav {
     margin-top: 0;
@@ -85,6 +89,9 @@
 }
 
 @media screen and (min-width: 750px) {
+  #home-page {
+    height: 100vh;
+  }
   #home_presentation{
     height: 916px;
     background-position:
@@ -180,13 +187,31 @@ footer h3:hover {
   grid-row: 1 / 1 span;
   display: flex;
   flex-direction: column;
-  height: 100vh;
 }
 
-#p1 #introd_1 {
-  margin: 0 16px;
-  display: flex;
-  flex-direction: column;
+@media screen and (min-width:750px) {
+  #p1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 10px;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+   
+  #general_inf {
+    grid-column: 2 / 1 span;
+  }
+
+  #p1 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+  
+  #p1 footer .skills { margin-left: 0;}
 }
 
 #p2 {
