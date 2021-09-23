@@ -60,8 +60,7 @@
 }
 
 #home_presentation {
-  background-image:
-    url("../statics/images/Ellipse 11.png"),
+  background-image: url("../statics/images/Ellipse 11.png"),
     url("../statics/images/Rectangle 4.png"),
     url("../statics/images/Ellipse\ 3.png"),
     url("../statics/images/Ellipse\ 8.png"),
@@ -72,17 +71,8 @@
     url("../statics/images/Rectangle\ 5.png"),
     url("../statics/images/Ellipse\ 13.png"),
     url("../statics/images/Ellipse\ 15.png");
-  background-position:
-    19px 79px,
-    294px 68px,
-    323px 102px,
-    214px 110px,
-    125px 106px,
-    127px 98px,
-    370px 385px,
-    290px 509px,
-    240px 507px,
-    357px 392px,
+  background-position: 19px 79px, 294px 68px, 323px 102px, 214px 110px,
+    125px 106px, 127px 98px, 370px 385px, 290px 509px, 240px 507px, 357px 392px,
     106px 497px;
   background-repeat: no-repeat;
   display: flex;
@@ -98,18 +88,8 @@
 
   #home_presentation {
     height: 916px;
-    background-position:
-      0 57px,
-      850px 30px,
-      880px 62px,
-      379px 164px,
-      300px 79px,
-      299px 70px,
-      13px 450px,
-      600px 450px,
-      559px 451px,
-      0 460px,
-      253px 768px;
+    background-position: 0 57px, 850px 30px, 880px 62px, 379px 164px, 300px 79px,
+      299px 70px, 13px 450px, 600px 450px, 559px 451px, 0 460px, 253px 768px;
     margin-left: 260px;
     padding-top: 150px;
     justify-content: stretch;
@@ -153,7 +133,9 @@
   margin-right: 20px;
 }
 
-.icon:hover { background-color: #23a3fa; }
+.icon:hover {
+  background-color: #23a3fa;
+}
 
 #My_work {
   display: grid;
@@ -184,6 +166,11 @@
     justify-self: center;
   }
 
+  .project_image:hover {
+    animation-name: image_animation;
+    animation-duration: 3s;
+  }
+
   #general_inf {
     grid-column: 2 / 1 span;
   }
@@ -193,7 +180,9 @@
     width: 15%;
   }
 
-  #p1 footer .skills { margin-left: 0; }
+  #p1 footer .skills {
+    margin-left: 0;
+  }
 }
 
 #p2 {
@@ -225,7 +214,9 @@
     width: 15%;
   }
 
-  #p2 footer .skills { margin-left: 0; }
+  #p2 footer .skills {
+    margin-left: 0;
+  }
 }
 
 #p3 {
@@ -257,7 +248,9 @@
     width: 15%;
   }
 
-  #p3 footer .skills { margin-left: 0; }
+  #p3 footer .skills {
+    margin-left: 0;
+  }
 }
 
 #p4 {
@@ -289,7 +282,9 @@
     width: 15%;
   }
 
-  #p4 footer .skills { margin-left: 0; }
+  #p4 footer .skills {
+    margin-left: 0;
+  }
 }
 
 h3 {
@@ -385,7 +380,9 @@ h1:hover {
   border-radius: 50%;
 }
 
-.project_image { margin-top: 16px; }
+.project_image {
+  margin-top: 16px;
+}
 
 .project_description {
   font-family: Poppins, sans-serif;
@@ -554,11 +551,17 @@ h1:hover {
   #my_skills {
     grid-column: 2 / span 1;
   }
-  #spec_name { justify-content: space-between; }
+  #spec_name {
+    justify-content: space-between;
+  }
 
-  #frameworks { justify-content: space-between; }
+  #frameworks {
+    justify-content: space-between;
+  }
 
-  #sk { justify-content: space-between; }
+  #sk {
+    justify-content: space-between;
+  }
 }
 
 #about_me h1 {
@@ -670,9 +673,13 @@ h1:hover {
   color: #000;
 }
 
-#spec_name div { align-self: flex-end; }
+#spec_name div {
+  align-self: flex-end;
+}
 
-#spec_name div img { vertical-align: middle; }
+#spec_name div img {
+  vertical-align: middle;
+}
 
 #programmes {
   display: flex;
@@ -700,9 +707,13 @@ h1:hover {
   color: #000;
 }
 
-#frameworks { display: flex; }
+#frameworks {
+  display: flex;
+}
 
-#frameworks div { margin-top: 7px; }
+#frameworks div {
+  margin-top: 7px;
+}
 
 #l1 {
   height: 5px;
@@ -716,7 +727,9 @@ h1:hover {
   margin-top: 3px;
 }
 
-#sk { display: flex; }
+#sk {
+  display: flex;
+}
 
 #sk p {
   align-self: flex-start;
@@ -729,7 +742,9 @@ h1:hover {
   color: #000;
 }
 
-#sk div { margin-top: 7px; }
+#sk div {
+  margin-top: 7px;
+}
 
 #sk p:hover {
   text-decoration: underline;
@@ -813,9 +828,13 @@ h1:hover {
     margin-bottom: 200px;
   }
 
-  .contact-title { margin-bottom: 0; }
+  .contact-title {
+    margin-bottom: 0;
+  }
 
-  .wrap .contact-parag { margin-bottom: 20px; }
+  .wrap .contact-parag {
+    margin-bottom: 20px;
+  }
 
   .contact {
     justify-content: center;
@@ -827,7 +846,9 @@ h1:hover {
     padding: 10px;
   }
 
-  .bottom-bar { display: none; }
+  .bottom-bar {
+    display: none;
+  }
 
   .contact textarea {
     width: 309px;
@@ -897,6 +918,8 @@ h1:hover {
   padding: 20px 35px;
   border-radius: 12px;
   border: none;
+  transition-property: background-color, color;
+  transition-duration: 0.5s;
 }
 
 .bottom-bar {
@@ -931,8 +954,17 @@ h1:hover {
     margin-top: -100px;
   }
   to {
-     height: 100%;
-     opacity: 1;
-     margin-top: 0;
+    height: 100%;
+    opacity: 1;
+    margin-top: 0;
+  }
+}
+
+@keyframes image_animation {
+  from {
+    width: 85%;
+  }
+  to {
+    width: 95%;
   }
 }
