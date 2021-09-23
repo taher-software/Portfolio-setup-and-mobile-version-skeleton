@@ -1,5 +1,5 @@
-.home-page{
-  height:100vh;
+.home-page {
+  height: 100vh;
 }
 
 #nav {
@@ -25,7 +25,7 @@
     justify-content: center;
   }
 
-  header #nav  .logo {
+  header #nav .logo {
     margin-right: 30%;
     font-family: Poppins, sans-serif;
     font-weight: bold;
@@ -37,8 +37,8 @@
     display: none;
   }
 
-  #nav .internal-link { 
-    display: flex; 
+  #nav .internal-link {
+    display: flex;
     justify-content: space-between;
     min-width: 190px;
   }
@@ -46,6 +46,7 @@
   #nav .internal-link li {
     list-style: none;
   }
+
   #nav .internal-link li a {
     text-decoration: none;
     font-family: Poppins, sans-serif;
@@ -138,22 +139,6 @@
   text-decoration-thickness: 2px;
 }
 
-footer h3 {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 16px;
-  line-height: 24px;
-  color: #7f8cff;
-  margin-left: 24px;
-}
-
-footer h3:hover {
-  text-decoration: underline;
-  text-decoration-thickness: 2px;
-  text-decoration-color: #23a3fa;
-}
-
 #contact ul {
   display: flex;
   align-items: center;
@@ -185,6 +170,7 @@ footer h3:hover {
   #My_work {
     margin-top: 100px;
   }
+
   #p1 {
     display: grid;
     grid-template-columns: 50% 50%;
@@ -312,6 +298,22 @@ h3 {
   color: #172b4d;
   font-family: Poppins, sans-serif;
   line-height: 44px;
+}
+
+footer h3 {
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  margin-left: 24px;
+}
+
+footer h3:hover {
+  text-decoration: underline;
+  text-decoration-thickness: 2px;
+  text-decoration-color: #23a3fa;
 }
 
 h1:hover {
