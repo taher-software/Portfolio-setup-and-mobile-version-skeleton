@@ -16,12 +16,6 @@
   margin-left: 24px;
 }
 
-#nav a:hover {
-  text-decoration: underline;
-  text-decoration-color: #23a3fa;
-  text-decoration-thickness: 2px;
-}
-
 #nav nav {
   width: 45px;
   height: 30px;
@@ -38,7 +32,7 @@
     margin-top: 0;
     justify-content: center;
   }
-  
+
   .logo {
     margin-right: 40%;
   }
@@ -128,12 +122,6 @@
   line-height: 24px;
   color: #344563;
   margin: 12px 24px 0 24px;
-}
-
-#home_presentation p:hover {
-  text-decoration: underline;
-  text-decoration-color: #23a3fa;
-  text-decoration-thickness: 2px;
 }
 
 .short-presentation:hover {
@@ -539,13 +527,13 @@ footer {
   #my_skills {
     grid-column: 2 / span 1;
   }
-  
   #spec_name { justify-content: space-between; }
 
   #frameworks { justify-content: space-between; }
 
-  #sk { justify-content: space-between;}
+  #sk { justify-content: space-between; }
 }
+
 #about_me h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -859,4 +847,16 @@ footer {
 .contact button:active {
   background-color: #2230d2;
   color: #fff;
+}
+
+#home_presentation p:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 2px;
+}
+
+#nav a:hover {
+  text-decoration: underline;
+  text-decoration-color: #23a3fa;
+  text-decoration-thickness: 2px;
 }
