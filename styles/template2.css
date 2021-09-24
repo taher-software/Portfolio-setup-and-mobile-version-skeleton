@@ -604,7 +604,16 @@ h1:hover {
 }
 
 .form-section {
-  background: url("../statics/images/Contact_me.png");
+  background-image:
+    url("../statics/images/ep1.svg"),
+    url("../statics/images/rp1.svg"),
+    url("../statics/images/ep2.svg"),
+    url("../statics/images/rp2.svg"),
+    url("../statics/images/ep3.svg"),
+    url("../statics/images/contact-form-\ background.svg");
+  background-repeat: no-repeat;
+  background-position: 78% 91%,86% 90%, 99.7% 9.2%,99.5% 6.2%,41% 7.06%, 0 ;
+  background-size: auto, auto, auto, auto,auto, cover;
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -615,28 +624,6 @@ h1:hover {
   flex-direction: column;
   align-items: center;
   margin-top: 100px;
-}
-
-  .contact-title { margin-bottom: 0; }
-
-  .wrap .contact-parag { margin-bottom: 20px; }
-
-  .contact {
-    justify-content: center;
-    align-items: center;
-  }
-
-  .wrap .contact button {
-    align-self: center;
-    padding: 10px;
-  }
-
-  .bottom-bar { display: none; }
-
-  .contact textarea {
-    width: 309px;
-    height: 100px;
-  }
 }
 
 .contact-title {
@@ -729,6 +716,27 @@ h1:hover {
 }
 
 @media screen and (min-width: 1024px) {
+  .contact textarea {
+    width: 309px;
+    height: 100px;
+  }
+
+  .bottom-bar { display: none; }
+
+  .wrap .contact button {
+    align-self: center;
+    padding: 10px;
+  }
+
+  .contact {
+    justify-content: center;
+    align-items: center;
+  }
+
+  .wrap .contact-parag { margin-bottom: 20px; }
+
+  .contact-title { margin-bottom: 0; }
+
   #nav {
     margin-top: 0;
     justify-content: center;
@@ -906,5 +914,30 @@ h1:hover {
     width: 50%;
     height: 25%;
     margin-bottom: 200px;
+  }
+
+  .form-section {
+    background-image:
+    url("../statics/images/e1.svg"),
+    url("../statics/images/r1.svg"),
+    url("../statics/images/e2.svg"),
+    url("../statics/images/r2.svg"),
+    url("../statics/images/e3.svg"),
+    url("../statics/images/r3.svg"),
+    url("../statics/images/e4.svg"),
+    url("../statics/images/e5.svg"),
+    url("../statics/images/contact-form-\ background.svg");
+    background-repeat: no-repeat;
+    background-position:
+      5.2% 44%,
+      5.83% 40.07%,
+      87% 14.06%,
+      84.16% 8%,
+      24.86% 90.19%,
+      23.4% 87.58%,
+      36.4% 13.47%,
+      78.4% 61.58%,
+      0;
+    background-size: auto, auto, auto, auto, auto, auto, auto, auto, cover;
   }
 }
