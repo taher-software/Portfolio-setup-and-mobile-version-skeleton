@@ -289,10 +289,15 @@ h1:hover {
   text-align: center;
 }
 
-.external_link a:hover {
-  text-decoration: underline;
-  text-decoration-color: #18a0fa;
-  text-decoration-thickness: 3px;
+.external_link:hover {
+  background: #6070ff;
+  border-radius: 8px;
+  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+}
+
+.external_link:visted {
+  background: #2230D2;
+  border-radius: 8px;
 }
 
 #nav .logo {
@@ -803,6 +808,9 @@ h1:hover {
   #p1 {
     display: grid;
     grid-template-columns: 50% 50%;
+    width: 80%;
+    margin-left: 10%;
+    grid-column-gap: 20px;
   }
 
   .project_image {
@@ -817,7 +825,8 @@ h1:hover {
 
   #p1 footer .external_link {
     margin-left: 0;
-    width: 15%;
+    width: 18%;
+    padding: 2% 0;
   }
 
   #p1 footer .skills { margin-left: 0; }
@@ -826,6 +835,9 @@ h1:hover {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 100px;
+    width: 80%;
+    margin-left: 10%;
+    grid-column-gap: 20px;
   }
 
   .project_image {
@@ -840,7 +852,8 @@ h1:hover {
 
   #p2 footer .external_link {
     margin-left: 0;
-    width: 15%;
+    width: 18%;
+    padding: 2% 0;
   }
 
   #p2 footer .skills { margin-left: 0; }
@@ -849,6 +862,9 @@ h1:hover {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 100px;
+    width: 80%;
+    margin-left: 10%;
+    grid-column-gap: 20px;
   }
 
   .project_image {
@@ -863,7 +879,8 @@ h1:hover {
 
   #p3 footer .external_link {
     margin-left: 0;
-    width: 15%;
+    width: 18%;
+    padding: 2% 0;
   }
 
   #p3 footer .skills { margin-left: 0; }
@@ -872,6 +889,9 @@ h1:hover {
     display: grid;
     grid-template-columns: 50% 50%;
     margin-bottom: 100px;
+    width: 80%;
+    margin-left: 10%;
+    grid-column-gap: 20px;
   }
 
   .project_image {
@@ -886,19 +906,28 @@ h1:hover {
 
   #p4 footer .external_link {
     margin-left: 0;
-    width: 15%;
+    width: 18%;
+    padding: 2% 0;
   }
 
   #p4 footer .skills { margin-left: 0; }
 
   #about_me {
     display: grid;
-    grid-template-columns: 50% 50%;
+    grid-template-columns: 40% 60%;
+    margin: 0 8% 10%;
+    grid-column-gap: 5%;
   }
 
-  .data-inf {
-    grid-column: 1 / span 1;
-  }
+  .data-inf { grid-column: 1 / span 1; }
+
+  .data-inf h1 { margin-bottom: 0;}
+
+  #profile_link h2 { margin-bottom: 0;}
+
+  #profile_link ul { margin-top: 8px;}
+
+  #presentation { margin-bottom: 0;}
 
   #my_skills {
     grid-column: 2 / span 1;
