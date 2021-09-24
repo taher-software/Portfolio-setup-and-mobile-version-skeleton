@@ -19,44 +19,6 @@
   display: none;
 }
 
-@media screen and (min-width: 750px) {
-  #nav {
-    margin-top: 0;
-    justify-content: center;
-  }
-
-  header #nav .logo {
-    margin-right: 30%;
-    font-family: Poppins, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 20px;
-  }
-
-  #nav nav {
-    display: none;
-  }
-
-  #nav .internal-link {
-    display: flex;
-    justify-content: space-between;
-    min-width: 190px;
-  }
-
-  #nav .internal-link li {
-    list-style: none;
-  }
-
-  #nav .internal-link li a {
-    text-decoration: none;
-    font-family: Poppins, sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-    line-height: 20px;
-    color: #344563;
-  }
-}
-
 #home_presentation {
   background-image:
     url("../statics/images/Ellipse 11.png"),
@@ -87,31 +49,6 @@
   flex-direction: column;
   justify-content: center;
   height: 600px;
-}
-
-@media screen and (min-width: 750px) {
-  #home-page {
-    height: 100vh;
-  }
-
-  #home_presentation {
-    height: 916px;
-    background-position:
-      0 57px,
-      850px 30px,
-      880px 62px,
-      379px 164px,
-      300px 79px,
-      299px 70px,
-      13px 450px,
-      600px 450px,
-      559px 451px,
-      0 460px,
-      253px 768px;
-    margin-left: 260px;
-    padding-top: 150px;
-    justify-content: stretch;
-  }
 }
 
 .short-presentation {
@@ -166,64 +103,11 @@
   margin-bottom: 100px;
 }
 
-@media screen and (min-width: 750px) {
-  #My_work {
-    margin-top: 100px;
-  }
-
-  #p1 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-  .project_image {
-    grid-column: 1 / 1 span;
-    width: 95%;
-    justify-self: center;
-  }
-
-  #general_inf {
-    grid-column: 2 / 1 span;
-  }
-
-  #p1 footer .external_link {
-    margin-left: 0;
-    width: 15%;
-  }
-
-  #p1 footer .skills { margin-left: 0; }
-}
-
 #p2 {
   margin: 0;
   grid-row: 2 / 1 span;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (min-width: 750px) {
-  #p2 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-bottom: 100px;
-  }
-
-  .project_image {
-    grid-column: 1 / 1 span;
-    width: 95%;
-    justify-self: center;
-  }
-
-  #general_inf_1 {
-    grid-column: 2 / 1 span;
-  }
-
-  #p2 footer .external_link {
-    margin-left: 0;
-    width: 15%;
-  }
-
-  #p2 footer .skills { margin-left: 0; }
 }
 
 #p3 {
@@ -233,61 +117,11 @@
   flex-direction: column;
 }
 
-@media screen and (min-width: 750px) {
-  #p3 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-bottom: 100px;
-  }
-
-  .project_image {
-    grid-column: 1 / 1 span;
-    width: 95%;
-    justify-self: center;
-  }
-
-  #general_inf_2 {
-    grid-column: 2 / 1 span;
-  }
-
-  #p3 footer .external_link {
-    margin-left: 0;
-    width: 15%;
-  }
-
-  #p3 footer .skills { margin-left: 0; }
-}
-
 #p4 {
   margin: 0;
   grid-row: 4 / 1 span;
   display: flex;
   flex-direction: column;
-}
-
-@media screen and (min-width: 750px) {
-  #p4 {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    margin-bottom: 100px;
-  }
-
-  .project_image {
-    grid-column: 1 / 1 span;
-    width: 95%;
-    justify-self: center;
-  }
-
-  #general_inf_3 {
-    grid-column: 2 / 1 span;
-  }
-
-  #p4 footer .external_link {
-    margin-left: 0;
-    width: 15%;
-  }
-
-  #p4 footer .skills { margin-left: 0; }
 }
 
 h3 {
@@ -539,26 +373,6 @@ h1:hover {
   flex-direction: column;
 }
 
-@media screen and (min-width: 750px) {
-  #about_me {
-    display: grid;
-    grid-template-columns: 50% 50%;
-  }
-
-  .data-inf {
-    grid-column: 1 / span 1;
-  }
-
-  #my_skills {
-    grid-column: 2 / span 1;
-  }
-  #spec_name { justify-content: space-between; }
-
-  #frameworks { justify-content: space-between; }
-
-  #sk { justify-content: space-between; }
-}
-
 #about_me h1 {
   font-family: Poppins, sans-serif;
   font-style: normal;
@@ -803,14 +617,6 @@ h1:hover {
   margin-top: 100px;
 }
 
-@media screen and (min-width: 750px) {
-  .wrap {
-    justify-content: center;
-    width: 50%;
-    height: 25%;
-    margin-bottom: 200px;
-  }
-
   .contact-title { margin-bottom: 0; }
 
   .wrap .contact-parag { margin-bottom: 20px; }
@@ -920,4 +726,185 @@ h1:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
   text-decoration-thickness: 2px;
+}
+
+@media screen and (min-width: 1024px) {
+  #nav {
+    margin-top: 0;
+    justify-content: center;
+  }
+
+  header #nav .logo {
+    margin-right: 30%;
+    font-family: Poppins, sans-serif;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 20px;
+  }
+
+  #nav nav {
+    display: none;
+  }
+
+  #nav .internal-link {
+    display: flex;
+    justify-content: space-between;
+    min-width: 190px;
+  }
+
+  #nav .internal-link li {
+    list-style: none;
+  }
+
+  #nav .internal-link li a {
+    text-decoration: none;
+    font-family: Poppins, sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #344563;
+  }
+
+  #home-page {
+    height: 100vh;
+  }
+
+  #home_presentation {
+    height: 916px;
+    background-position:
+      0 57px,
+      850px 30px,
+      880px 62px,
+      379px 164px,
+      300px 79px,
+      299px 70px,
+      13px 450px,
+      600px 450px,
+      559px 451px,
+      0 460px,
+      253px 768px;
+    margin-left: 260px;
+    padding-top: 150px;
+    justify-content: stretch;
+  }
+
+  #My_work {
+    margin-top: 100px;
+  }
+
+  #p1 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+
+  #general_inf {
+    grid-column: 2 / 1 span;
+  }
+
+  #p1 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+
+  #p1 footer .skills { margin-left: 0; }
+
+  #p2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+
+  #general_inf_1 {
+    grid-column: 2 / 1 span;
+  }
+
+  #p2 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+
+  #p2 footer .skills { margin-left: 0; }
+
+  #p3 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+
+  #general_inf_2 {
+    grid-column: 2 / 1 span;
+  }
+
+  #p3 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+
+  #p3 footer .skills { margin-left: 0; }
+
+  #p4 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    margin-bottom: 100px;
+  }
+
+  .project_image {
+    grid-column: 1 / 1 span;
+    width: 95%;
+    justify-self: center;
+  }
+
+  #general_inf_3 {
+    grid-column: 2 / 1 span;
+  }
+
+  #p4 footer .external_link {
+    margin-left: 0;
+    width: 15%;
+  }
+
+  #p4 footer .skills { margin-left: 0; }
+
+  #about_me {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .data-inf {
+    grid-column: 1 / span 1;
+  }
+
+  #my_skills {
+    grid-column: 2 / span 1;
+  }
+  #spec_name { justify-content: space-between; }
+
+  #frameworks { justify-content: space-between; }
+
+  #sk { justify-content: space-between; }
+
+  .wrap {
+    justify-content: center;
+    width: 50%;
+    height: 25%;
+    margin-bottom: 200px;
+  }
 }
