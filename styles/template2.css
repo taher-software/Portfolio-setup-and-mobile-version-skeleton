@@ -1,5 +1,11 @@
+body {
+  background-color: #e5e5e5;
+  margin: 0;
+}
+
 .home-page {
   height: 120vh;
+  background-color: #fff;
 }
 
 #nav {
@@ -90,24 +96,31 @@
 
 .icon:hover { background-color: #23a3fa; }
 
-#My_work {
+#my_work {
   display: grid;
   grid-template-rows: 25% 25% 25% 25%;
+  margin: 114px 0 57px 0;
+  height: 440vh;
 }
 
 #p1 {
-  margin: 0;
   grid-row: 1 / 1 span;
   display: flex;
   flex-direction: column;
-  margin-bottom: 100px;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
 }
 
 #p2 {
-  margin: 0;
   grid-row: 2 / 1 span;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
 }
 
 #p3 {
@@ -115,6 +128,10 @@
   grid-row: 3 / 1 span;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
 }
 
 #p4 {
@@ -122,6 +139,10 @@
   grid-row: 4 / 1 span;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  justify-content: space-around;
+  align-items: center;
+  height: 100vh;
 }
 
 h3 {
@@ -228,6 +249,8 @@ h1:hover {
   color: #344563;
   margin-top: 5px;
 }
+
+.general { width:90%; }
 
 .general footer {
   display: flex;
@@ -373,9 +396,10 @@ h1:hover {
 }
 
 #about_me {
-  margin: 0 0 0 16px;
+  margin: 0;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
 }
 
 #about_me h1 {
@@ -465,11 +489,18 @@ h1:hover {
   display: flex;
   flex-direction: column;
   margin-top: 35px;
+  margin-left: 24px;
 }
 
 #languages_skills {
   display: flex;
   flex-direction: column;
+}
+
+.data-inf {
+  margin-left: 24px;
+  margin-top: 114px;
+  margin-right: 12px;
 }
 
 #spec_name {
@@ -496,6 +527,7 @@ h1:hover {
   flex-direction: column;
   padding-left: 0;
   justify-content: space-between;
+  margin-right: 24px;
 }
 
 .pro {
@@ -608,7 +640,10 @@ h1:hover {
   text-decoration-thickness: 3px;
 }
 
+.final_wrap { background-color: #fff;}
+
 .form-section {
+  background-color: #fff;
   background-image:
     url("../statics/images/ep1.svg"),
     url("../statics/images/rp1.svg"),
@@ -820,7 +855,7 @@ h1:hover {
     background-image: none;
   }
 
-  #My_work {
+  #my_work {
     margin-top: 100px;
   }
 
@@ -899,6 +934,7 @@ h1:hover {
     grid-column: 1 / 1 span;
     width: 95%;
     justify-self: center;
+    margin-left: 16px;
   }
 
   #general_inf_3 {
