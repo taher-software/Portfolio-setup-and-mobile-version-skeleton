@@ -255,7 +255,7 @@ h1:hover {
   margin-top: 5px;
 }
 
-.general { width:90%; }
+.general { width: 90%; }
 
 .general footer {
   display: flex;
@@ -327,6 +327,7 @@ h1:hover {
   background: #2230d2;
   border-radius: 8px;
 }
+
 .external_link a:hover { color: #fff; }
 
 #nav .logo {
@@ -979,7 +980,7 @@ h1:hover {
   #spec_name { justify-content: space-between; }
 
   #programmes {
-    flex-direction: row; 
+    flex-direction: row;
     justify-content: space-between;
     margin-right: 0;
   }
@@ -991,11 +992,11 @@ h1:hover {
     width: 102px;
   }
 
-  .pro img { align-self: flex-start;}
+  .pro img { align-self: flex-start; }
 
   #frameworks { justify-content: space-between; }
-  
-  l1 hr {
+
+  #l1 hr {
     background: #dfe1e6;
     height: 1px;
   }
