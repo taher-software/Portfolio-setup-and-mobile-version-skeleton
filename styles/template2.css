@@ -292,11 +292,11 @@ h1:hover {
 .external_link:hover {
   background: #6070ff;
   border-radius: 8px;
-  box-shadow: 0px 8px 16px rgba(64, 83, 252, 0.24);
+  box-shadow: 0 8px 16px rgba(64, 83, 252, 0.24);
 }
 
-.external_link:visted {
-  background: #2230D2;
+.external_link:visited {
+  background: #2230d2;
   border-radius: 8px;
 }
 
@@ -617,7 +617,13 @@ h1:hover {
     url("../statics/images/ep3.svg"),
     url("../statics/images/contact-form-\ background.svg");
   background-repeat: no-repeat;
-  background-position: 78% 91%,86% 90%, 99.7% 9.2%,99.5% 6.2%,41% 7.06%, 0 ;
+  background-position:
+    78% 91%,
+    86% 90%,
+    99.7% 9.2%,
+    99.5% 6.2%,
+    41% 7.06%,
+    0;
   background-size: auto, auto, auto, auto,auto, cover;
   display: flex;
   justify-content: center;
@@ -826,12 +832,6 @@ h1:hover {
     grid-column-gap: 20px;
   }
 
-  .project_image {
-    grid-column: 1 / 1 span;
-    width: 95%;
-    justify-self: center;
-  }
-
   #general_inf {
     grid-column: 2 / 1 span;
   }
@@ -853,12 +853,6 @@ h1:hover {
     grid-column-gap: 20px;
   }
 
-  .project_image {
-    grid-column: 1 / 1 span;
-    width: 95%;
-    justify-self: center;
-  }
-
   #general_inf_1 {
     grid-column: 2 / 1 span;
   }
@@ -878,12 +872,6 @@ h1:hover {
     width: 80%;
     margin-left: 10%;
     grid-column-gap: 20px;
-  }
-
-  .project_image {
-    grid-column: 1 / 1 span;
-    width: 95%;
-    justify-self: center;
   }
 
   #general_inf_2 {
@@ -934,13 +922,13 @@ h1:hover {
 
   .data-inf { grid-column: 1 / span 1; }
 
-  .data-inf h1 { margin-bottom: 0;}
+  .data-inf h1 { margin-bottom: 0; }
 
-  #profile_link h2 { margin-bottom: 0;}
+  #profile_link h2 { margin-bottom: 0; }
 
-  #profile_link ul { margin-top: 8px;}
+  #profile_link ul { margin-top: 8px; }
 
-  #presentation { margin-bottom: 0;}
+  #presentation { margin-bottom: 0; }
 
   #my_skills {
     grid-column: 2 / span 1;
@@ -960,15 +948,15 @@ h1:hover {
 
   .form-section {
     background-image:
-    url("../statics/images/e1.svg"),
-    url("../statics/images/r1.svg"),
-    url("../statics/images/e2.svg"),
-    url("../statics/images/r2.svg"),
-    url("../statics/images/e3.svg"),
-    url("../statics/images/r3.svg"),
-    url("../statics/images/e4.svg"),
-    url("../statics/images/e5.svg"),
-    url("../statics/images/contact-form-\ background.svg");
+      url("../statics/images/e1.svg"),
+      url("../statics/images/r1.svg"),
+      url("../statics/images/e2.svg"),
+      url("../statics/images/r2.svg"),
+      url("../statics/images/e3.svg"),
+      url("../statics/images/r3.svg"),
+      url("../statics/images/e4.svg"),
+      url("../statics/images/e5.svg"),
+      url("../statics/images/contact-form-\ background.svg");
     background-repeat: no-repeat;
     background-position:
       5.2% 44%,
