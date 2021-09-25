@@ -327,6 +327,7 @@ h1:hover {
   background: #2230d2;
   border-radius: 8px;
 }
+.external_link a:hover { color: #fff; }
 
 #nav .logo {
   text-decoration: none;
