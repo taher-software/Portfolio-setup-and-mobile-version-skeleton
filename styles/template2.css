@@ -6,6 +6,7 @@ body {
 .home-page {
   height: 120vh;
   background-color: #fff;
+  border-radius: 0 0 0 5%;
 }
 
 #nav {
@@ -111,6 +112,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  border-radius: 2.5%;
 }
 
 #p2 {
@@ -121,6 +123,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  border-radius: 2.5%;
 }
 
 #p3 {
@@ -132,6 +135,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  border-radius: 2.5%;
 }
 
 #p4 {
@@ -143,6 +147,7 @@ body {
   justify-content: space-around;
   align-items: center;
   height: 100vh;
+  border-radius: 2.5%;
 }
 
 h3 {
@@ -640,7 +645,10 @@ h1:hover {
   text-decoration-thickness: 3px;
 }
 
-.final_wrap { background-color: #fff;}
+.final_wrap {
+  background-color: #fff;
+  border-radius: 7.5%;
+}
 
 .form-section {
   background-color: #fff;
