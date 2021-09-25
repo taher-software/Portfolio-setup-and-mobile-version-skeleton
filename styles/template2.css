@@ -623,16 +623,6 @@ h1:hover {
   text-decoration-thickness: 3px;
 }
 
-#l1 hr:hover {
-  background-color: #18a0fa;
-  color: #18a0fa;
-}
-
-#l2 hr:hover {
-  background-color: #18a0fa;
-  color: #18a0fa;
-}
-
 #home_presentation p:hover {
   text-decoration: underline;
   text-decoration-color: #23a3fa;
@@ -964,7 +954,10 @@ h1:hover {
     grid-column-gap: 5%;
   }
 
-  .data-inf { grid-column: 1 / span 1; }
+  .data-inf {
+    grid-column: 1 / span 1;
+    margin-right: 0;
+  }
 
   .data-inf h1 { margin-bottom: 0; }
 
@@ -976,11 +969,35 @@ h1:hover {
 
   #my_skills {
     grid-column: 2 / span 1;
+    margin-top: 156px;
+    margin-left: 0;
+    width: 320px;
+    height: 300px;
+    justify-content: space-around;
   }
   #spec_name { justify-content: space-between; }
 
-  #frameworks { justify-content: space-between; }
+  #programmes {
+    flex-direction: row; 
+    justify-content: space-between;
+    margin-right: 0;
+  }
 
+  .pro {
+    flex-direction: column;
+    justify-content: flex-start;
+    height: 100px;
+    width: 102px;
+  }
+
+  .pro img { align-self: flex-start;}
+
+  #frameworks { justify-content: space-between; }
+  
+  l1 hr {
+    background: #dfe1e6;
+    height: 1px;
+  }
   #sk { justify-content: space-between; }
 
   .wrap {
