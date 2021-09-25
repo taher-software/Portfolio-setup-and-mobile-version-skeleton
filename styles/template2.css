@@ -624,7 +624,7 @@ h1:hover {
     99.5% 6.2%,
     41% 7.06%,
     0;
-  background-size: auto, auto, auto, auto,auto, cover;
+  background-size: auto, auto, auto, auto, auto, cover;
   display: flex;
   justify-content: center;
   margin-top: 100px;
@@ -798,7 +798,7 @@ h1:hover {
       url("../statics/images/ed5.svg"),
       url("../statics/images/ed6.svg");
     background-repeat: no-repeat;
-    background-position: 
+    background-position:
       99.95% 22.5%,
       94% 6%,
       58.2% 75%,
