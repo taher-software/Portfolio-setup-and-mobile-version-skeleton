@@ -1,13 +1,13 @@
-let hamburger = document.querySelector('.hamburger');
+const hamburger = document.querySelector('.hamburger');
 
-hamburger.addEventListener('click', function () {
-  let div = document.createElement('div');
-  let img = document.createElement('img');
-  let links = document.querySelector('.internal-link');
-  let home = document.querySelector('.home-page');
-  let divWrap = document.createElement('div');
-  let linksChilds = Array.from(links.children);
-  let property = {
+hamburger.addEventListener('click', () => {
+  const div = document.createElement('div');
+  const img = document.createElement('img');
+  const links = document.querySelector('.internal-link');
+  const home = document.querySelector('.home-page');
+  const divWrap = document.createElement('div');
+  const linksChilds = Array.from(links.children);
+  const property = {
     color: '#fff',
     fontSize: '32px',
     fontFamily: 'Poppins sans-serif',
@@ -41,14 +41,15 @@ hamburger.addEventListener('click', function () {
   divWrap.append(div);
   home.appendChild(divWrap);
 
-  for (let elt of linksChilds) {
-    let eltChildren = elt.children;
+  for (let i = 0; i < linksChilds.length; i += 1) {
+    const eltChildren = linksChilds[i].children;
     eltChildren[0].addEventListener('click', () => {
       divWrap.style.display = 'none';
     });
-    elt.style.marginBottom = '20px';
-    for (let prop of Object.keys(property)) {
-      eltChildren[0].style[prop] = property[prop];
+    linksChilds[i].style.marginBottom = '20px';
+    // for (const prop of Object.keys(property)) {
+    for (let j = 0; j < Object.keys(property).length; j += 1) {
+      eltChildren[0].style[Object.keys(property)[j]] = property[Object.keys(property)[j]];
     }
   }
 });
