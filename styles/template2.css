@@ -22,6 +22,10 @@ body {
   align-items: center;
 }
 
+#nav nav:hover{
+  cursor: pointer;
+}
+
 .internal-link {
   display: none;
 }
