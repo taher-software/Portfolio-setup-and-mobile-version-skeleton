@@ -74,7 +74,7 @@ function createMobileProjectCard(key) {
   description.classList.add('project_description');
 
   projects[key].technolgies.forEach((element) => {
-    techns.innerHTML = `${techns.innerHTML }<li>${element} </li>`;
+    techns.innerHTML = `${techns.innerHTML}<li>${element} </li>`;
     techns.classList.add('skills');
     techns.id = 'skills_0';
   });
@@ -87,7 +87,7 @@ function createMobileProjectCard(key) {
 }
 
 window.addEventListener('load', () => {
-  for (const key of  Object.keys(projects)) {
+  for (const key of Object.keys(projects)) {
     myWork.appendChild(createMobileProjectCard(key));
   }
 
@@ -143,11 +143,11 @@ window.addEventListener('load', () => {
       wrapper.appendChild(infos);
       wrapper.appendChild(img);
       wrapper.appendChild(mobilePart);
-         
+
       wrapper.style.zIndex = '999';
-      wrapper.style.position = 'absolute';
+      wrapper.style.position = 'fixed';
       wrapper.style.top = '0';
-    
+
       wrapper.classList.add('pop-window');
       home.style.backgroundColor = 'rgba(193, 199, 208, 1)';
       home.appendChild(wrapper);
