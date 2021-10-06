@@ -1,12 +1,15 @@
 const hamburger = document.querySelector('.hamburger');
+const body = document.querySelector("body");
 
 hamburger.addEventListener('click', () => {
   const div = document.createElement('div');
   const img = document.createElement('img');
+  const imgWrapper = document.createElement('div');
   const links = document.querySelector('.internal-link');
   const home = document.querySelector('.home-page');
   const divWrap = document.createElement('div');
   const linksChilds = Array.from(links.children);
+  body.style.overflow = "hidden";
   const property = {
     color: '#fff',
     fontSize: '32px',
@@ -34,6 +37,8 @@ hamburger.addEventListener('click', () => {
   links.style.listStyle = 'none';
   img.addEventListener('click', () => {
     divWrap.style.display = 'none';
+    body.style.overflow = 'auto';
+
   });
 
   div.appendChild(img);
@@ -52,4 +57,5 @@ hamburger.addEventListener('click', () => {
       eltChildren[0].style[Object.keys(property)[j]] = property[Object.keys(property)[j]];
     }
   }
+
 });
