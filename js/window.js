@@ -195,7 +195,7 @@ function validateEmail(form, input, invalidMsg) {
     return true;
   }
   showMessage(form, invalidMsg);
-    return false;
+  return false;
 }
 const form = document.querySelector('form');
 const msg = 'The form was not sent, the email text should be in lower case.';
