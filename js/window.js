@@ -68,7 +68,7 @@ function createMobileProjectCard(key) {
   img.classList.add('project_image');
   projectSection.appendChild(general);
   title.innerHTML = projects[key].name;
-  inf.innerHTML = `${projects[key].generalInf[0]}  &bullet;  ${projects[key].generalInf[1]}  &bullet;  ${projects[key].generalInf[2]}`;`${projects[key].generalInf[0]}  &bullet;  ${projects[key].generalInf[1]}  &bullet;  ${projects[key].generalInf[2]}`;
+  inf.innerHTML = `${projects[key].generalInf[0]}  &bullet;  ${projects[key].generalInf[1]}  &bullet;  ${projects[key].generalInf[2]}`;
   inf.classList.add('title');
   description.innerHTML = projects[key].description.substring(0, Math.max(130,
     Math.floor(0.4 * projects[key].description.length)));
@@ -86,7 +86,6 @@ function createMobileProjectCard(key) {
 
   return projectSection;
 }
-
 
 Object.keys(projects).forEach((key) => {
   myWork.appendChild(createMobileProjectCard(key));
@@ -106,15 +105,15 @@ const infos = document.createElement('p');
 const image = document.createElement('img');
 const description = document.createElement('p');
 const skills = document.createElement('ul');
-      
+
 imgWrapper.classList.add('pop-header-div');
 cancelBtn.src = './statics/images/Icon.svg';
 imgWrapper.appendChild(cancelBtn);
 
 description.classList.add('project_description');
-      
+
 infos.classList.add('inf');
-      
+
 const bottom = document.createElement('div');
 const mobilePart = document.createElement('div');
 
@@ -123,7 +122,7 @@ header.appendChild(title);
 title.style.marginLeft = '32px';
 header.appendChild(imgWrapper);
 header.classList.add('pop-header');
-btnSource.innerHTML = '<img src="statics/images/gitbutton.png" alt="Live version"> '
+btnSource.innerHTML = '<img src="statics/images/gitbutton.png" alt="Live version"> ';
 btnLive.innerHTML = '<img src="statics/images/Enabled.png" alt="Live version"> ';
 externalButton.appendChild(btnLive);
 externalButton.appendChild(btnSource);
@@ -149,7 +148,7 @@ wrapper.style.position = 'absolute';
 wrapper.style.top = '0';
 
 wrapper.classList.add('pop-window');
-wrapper.style.visibility = "hidden";
+wrapper.style.visibility = 'hidden';
 home.appendChild(wrapper);
 
 popUpBtn.forEach((btn) => {
@@ -158,19 +157,20 @@ popUpBtn.forEach((btn) => {
     console.log(parentId);
     title.innerHTML = projects[parentId].name;
     infos.innerHTML = `${projects[parentId].generalInf[0]}  &bullet;  ${projects[parentId].generalInf[1]}  &bullet;  ${projects[parentId].generalInf[2]}`;
-    image.src = projects[parentId].img
+    image.src = projects[parentId].img;
     description.innerHTML = projects[parentId].description;
     skills.innerHTML = '';
     projects[parentId].technolgies.forEach((element) => {
       skills.innerHTML = `${skills.innerHTML}<li>${element} </li>`;
-    });;
-      
+    });
+
     skills.classList.add('skills');
-    skills.classList.add('techns')
-      
+    skills.classList.add('techns');
+
     home.style.backgroundColor = 'rgba(193, 199, 208, 1)';
     wrapper.style.visibility = "visible";
-    body.style.overflow = "hidden";
+
+    wrapper.style.position= 'fixed';
   });
 });
 const cancel = document.querySelector('.pop-header-div');
@@ -178,5 +178,5 @@ const cancel = document.querySelector('.pop-header-div');
 cancel.addEventListener('click', () => {
   document.querySelector('.pop-window').style.visibility = 'hidden';
   home.style.backgroundColor = '#fff';
-  body.style.overflow = "auto";
+  wrapper.style.position = 'hidden';
 });

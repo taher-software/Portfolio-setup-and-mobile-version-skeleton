@@ -161,12 +161,6 @@ h3 {
   font-size: 32px;
   color: #172b4d;
   font-family: Poppins, sans-serif;
-  line-height: 44px;margin-top: 12px;
-  margin-bottom: 0;
-  font-weight: bold;
-  font-size: 32px;
-  color: #172b4d;
-  font-family: Poppins, sans-serif;
   line-height: 44px;
 }
 
@@ -253,12 +247,11 @@ h1:hover {
   border-radius: 50%;
 }
 
-.project_image { 
+.project_image {
   margin-top: 16px;
-  /*width:80%;*/
   align-self: start;
   margin-left: 24px;
-  }
+}
 
 .project_description {
   font-family: Poppins, sans-serif;
@@ -835,7 +828,7 @@ h1:hover {
   font-size: 13px;
   margin-top: 5px;
   margin-left: 0;
-  color: #344563
+  color: #344563;
 }
 .pop-header-description { max-height: 45%; }
 
@@ -1014,7 +1007,6 @@ h1:hover {
     justify-self: center;
     margin-left: 16px;
     align-self: center;
-    margin-left: auto;
   }
 
   #general_inf_3 {
@@ -1116,9 +1108,9 @@ h1:hover {
 
   .pop-window {
     height: 180vh;
-    width : 90%;
+    width: 90%;
     margin-left: 5%;
-    }
+  }
 
   .pop-header-div {
     margin-right: 100px;
