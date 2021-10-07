@@ -87,7 +87,7 @@ function createMobileProjectCard(key) {
 }
 
 window.addEventListener('load', () => {
-  Object.keys(projects).forEach((key) =>{
+  Object.keys(projects).forEach((key) => {
     myWork.appendChild(createMobileProjectCard(key));
   });
 
@@ -153,7 +153,6 @@ window.addEventListener('load', () => {
       home.appendChild(wrapper);
 
       const cancel = document.querySelector('.pop-header-div');
-      console.log(cancel);
       cancel.addEventListener('click', () => {
         document.querySelector('.pop-window').style.display = 'none';
         home.style.backgroundColor = '#fff';
