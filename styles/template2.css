@@ -809,7 +809,6 @@ h1:hover {
 .pop-header-img {
   width: 80%;
   margin-top: 0;
-  /*max-height: 40%;*/
 }
 
 .techns {
@@ -1129,8 +1128,6 @@ h1:hover {
   }
 
   .pop-header-img {
-    /*min-width: 60%;
-    min-height: 60%;*/
     width: auto;
     height: auto;
   }
