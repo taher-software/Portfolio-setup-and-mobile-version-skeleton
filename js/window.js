@@ -168,13 +168,13 @@ popUpBtn.forEach((btn) => {
     skills.classList.add('techns');
 
     home.style.backgroundColor = 'rgba(193, 199, 208, 1)';
-    wrapper.style.visibility = "visible";
+    wrapper.style.visibility = 'visible';
 
-    wrapper.style.position= 'fixed';
+    wrapper.style.position = 'fixed';
   });
 });
 const cancel = document.querySelector('.pop-header-div');
-      
+
 cancel.addEventListener('click', () => {
   document.querySelector('.pop-window').style.visibility = 'hidden';
   home.style.backgroundColor = '#fff';
