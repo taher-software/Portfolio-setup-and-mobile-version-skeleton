@@ -207,3 +207,30 @@ form.addEventListener('submit', (event) => {
     event.preventDefault();
   }
 });
+/* save form data */
+const userName = form.elements.name;
+const userMail = form.elements.email;
+const userMessage = form.elements.message;
+if(localStorage.length == 0) {
+  populateStorage();
+} 
+else {
+  setForm();
+}
+function populateStorage() {
+  localStorage.setItem('name',form.elements.name.value);
+  localStorage.setItem('mail',form.elements.email.value);
+  localStorage.setItem('message',form.elements.message.value);
+}
+function setForm() {
+  const currentUserName = localStorage.getItem('name');
+  const currentUserEmail = localStorage.getItem('mail');
+  const currentMessage = localStorage.getItem('message');
+
+  form.elements.name.value = currentUserName;
+  form.elements.email.value = currentUserEmail;
+  form.elements.message.value = currentMessage;
+}
+userName.onchange = populateStorage;
+userMail.onchange = populateStorage;
+userMessage.onchange = populateStorage;
