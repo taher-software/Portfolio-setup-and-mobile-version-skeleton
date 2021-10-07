@@ -87,9 +87,9 @@ function createMobileProjectCard(key) {
 }
 
 window.addEventListener('load', () => {
-  for (const key of Object.keys(projects)) {
+  Object.keys(projects).forEach((key) =>{
     myWork.appendChild(createMobileProjectCard(key));
-  }
+  });
 
   const popUpBtn = document.querySelectorAll('.external_link');
   popUpBtn.forEach((btn) => {

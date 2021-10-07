@@ -1073,7 +1073,7 @@ h1:hover {
   }
 
   .pop-window {
-    height: 140vh;
+    height: 300vh;
   }
 
   .pop-header-div {
@@ -1093,7 +1093,7 @@ h1:hover {
   }
 
   .pop-header-img {
-    max-height: 60%;
+    max-height: 20%;
     min-width: 80%;
   }
 
