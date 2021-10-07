@@ -159,7 +159,7 @@ popUpBtn.forEach((btn) => {
     infos.innerHTML = `${projects[parentId].generalInf[0]}  &bullet;  ${projects[parentId].generalInf[1]}  &bullet;  ${projects[parentId].generalInf[2]}`;
     image.src = projects[parentId].img;
     description.innerHTML = projects[parentId].description.substring(0,
-         Math.min(250, projects[parentId].description.length));
+      Math.min(250, projects[parentId].description.length));
     skills.innerHTML = '';
     projects[parentId].technolgies.forEach((element) => {
       skills.innerHTML = `${skills.innerHTML}<li>${element} </li>`;
