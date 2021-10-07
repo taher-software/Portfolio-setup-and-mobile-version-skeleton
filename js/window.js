@@ -227,8 +227,7 @@ function setForm() {
 }
 if (localStorage.length === 0) {
   populateStorage();
-}
-else {
+} else {
   setForm();
 }
 userName.onchange = populateStorage;
