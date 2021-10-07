@@ -831,6 +831,13 @@ h1:hover {
 }
 .pop-header-description { max-height: 45%; }
 
+small {
+  font-family: Poppins, sans-serif;
+  color: red;
+  font-size: 13px;
+  font-weight: 600;
+}
+
 @media screen and (min-width: 1024px) {
   .contact textarea {
     width: 309px;
