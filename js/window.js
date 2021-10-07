@@ -181,8 +181,7 @@ cancel.addEventListener('click', () => {
   home.style.backgroundColor = '#fff';
   wrapper.style.position = 'hidden';
 });
-
-//Form user validation//
+/* form control */
 function isLowerCase(input) {
   const str = input.value.trim();
   return str === str.toLowerCase();
@@ -204,8 +203,7 @@ function validateEmail(form, input, invalidMsg) {
 const form = document.querySelector('form');
 const msg = 'The form was not sent, the email text should be in lower case.';
 form.addEventListener('submit', (event) => {
-
-  let mail = form.elements['email'];
+  const mail = form.elements.email;
 
   const emailValid = validateEmail(form, mail, msg);
 
