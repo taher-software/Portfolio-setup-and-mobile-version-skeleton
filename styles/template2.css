@@ -809,7 +809,7 @@ h1:hover {
 .pop-header-img {
   width: 80%;
   margin-top: 0;
-  max-height: 40%;
+  /*max-height: 40%;*/
 }
 
 .techns {
@@ -1107,9 +1107,9 @@ h1:hover {
   }
 
   .pop-window {
-    height: 180vh;
-    width: 90%;
-    margin-left: 5%;
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
   }
 
   .pop-header-div {
@@ -1119,17 +1119,20 @@ h1:hover {
 
   .pop-header-h3 {
     margin-left: 48px;
-    margin-right: 900px;
+    margin-right: 800px;
   }
 
   .mobile-part-class {
     display: flex;
     flex-direction: row;
+    margin-top: 20px;
   }
 
   .pop-header-img {
-    max-height: 25%;
-    min-width: 80%;
+    /*min-width: 60%;
+    min-height: 60%;*/
+    width: auto;
+    height: auto;
   }
 
   .pop-header-description {

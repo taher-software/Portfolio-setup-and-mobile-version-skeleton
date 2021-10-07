@@ -137,7 +137,7 @@ mobilePart.querySelector('p').classList.add('pop-header-description');
 infos.style.marginLeft = '32px';
 image.classList.add('project_image');
 image.classList.add('pop-header-img');
-image.style.marginLeft = '32px';
+
 wrapper.appendChild(header);
 wrapper.appendChild(infos);
 wrapper.appendChild(image);
@@ -158,7 +158,7 @@ popUpBtn.forEach((btn) => {
     title.innerHTML = projects[parentId].name;
     infos.innerHTML = `${projects[parentId].generalInf[0]}  &bullet;  ${projects[parentId].generalInf[1]}  &bullet;  ${projects[parentId].generalInf[2]}`;
     image.src = projects[parentId].img;
-    description.innerHTML = projects[parentId].description;
+    description.innerHTML = projects[parentId].description.substring(0, Math.min(250,projects[parentId].description.length));
     skills.innerHTML = '';
     projects[parentId].technolgies.forEach((element) => {
       skills.innerHTML = `${skills.innerHTML}<li>${element} </li>`;
