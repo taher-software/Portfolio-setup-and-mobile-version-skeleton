@@ -38,6 +38,7 @@ const projects = {
 };
 
 const myWork = document.querySelector('#my_work');
+
 function createMobileProjectCard(key) {
   const projectSection = document.createElement('section');
   const img = document.createElement('img');
@@ -67,7 +68,7 @@ function createMobileProjectCard(key) {
   img.classList.add('project_image');
   projectSection.appendChild(general);
   title.innerHTML = projects[key].name;
-  inf.innerHTML = `${projects[key].generalInf[0]}  &bullet;  ${projects[key].generalInf[1]}  &bullet;  ${projects[key].generalInf[2]}`;
+  inf.innerHTML = `${projects[key].generalInf[0]}  &bullet;  ${projects[key].generalInf[1]}  &bullet;  ${projects[key].generalInf[2]}`;`${projects[key].generalInf[0]}  &bullet;  ${projects[key].generalInf[1]}  &bullet;  ${projects[key].generalInf[2]}`;
   inf.classList.add('title');
   description.innerHTML = projects[key].description.substring(0, Math.max(130,
     Math.floor(0.4 * projects[key].description.length)));
@@ -75,9 +76,9 @@ function createMobileProjectCard(key) {
 
   projects[key].technolgies.forEach((element) => {
     techns.innerHTML = `${techns.innerHTML}<li>${element} </li>`;
-    techns.classList.add('skills');
-    techns.id = 'skills_0';
   });
+  techns.classList.add('skills');
+  techns.id = 'skills_0';
   btnLoad.innerHTML = 'See Project';
   btnLoad.href = '#';
   projectSection.appendChild(general);
@@ -86,77 +87,96 @@ function createMobileProjectCard(key) {
   return projectSection;
 }
 
-window.addEventListener('load', () => {
-  Object.keys(projects).forEach((key) => {
-    myWork.appendChild(createMobileProjectCard(key));
+
+Object.keys(projects).forEach((key) => {
+  myWork.appendChild(createMobileProjectCard(key));
+});
+
+const popUpBtn = document.querySelectorAll('.external_link');
+const btnSource = document.createElement('a');
+const btnLive = document.createElement('a');
+const externalButton = document.createElement('div');
+const wrapper = document.createElement('div');
+const home = document.querySelector('.home-page');
+const cancelBtn = document.createElement('img');
+const imgWrapper = document.createElement('div');
+const header = document.createElement('div');
+const title = document.createElement('h3');
+const infos = document.createElement('p');
+const image = document.createElement('img');
+const description = document.createElement('p');
+const skills = document.createElement('ul');
+      
+imgWrapper.classList.add('pop-header-div');
+cancelBtn.src = './statics/images/Icon.svg';
+imgWrapper.appendChild(cancelBtn);
+
+description.classList.add('project_description');
+      
+infos.classList.add('inf');
+      
+const bottom = document.createElement('div');
+const mobilePart = document.createElement('div');
+
+title.classList.add('pop-header-h3');
+header.appendChild(title);
+title.style.marginLeft = '32px';
+header.appendChild(imgWrapper);
+header.classList.add('pop-header');
+btnSource.innerHTML = '<img src="statics/images/gitbutton.png" alt="Live version"> '
+btnLive.innerHTML = '<img src="statics/images/Enabled.png" alt="Live version"> ';
+externalButton.appendChild(btnLive);
+externalButton.appendChild(btnSource);
+
+bottom.appendChild(skills);
+bottom.appendChild(externalButton);
+
+mobilePart.appendChild(description);
+mobilePart.appendChild(bottom);
+mobilePart.classList.add('mobile-part-class');
+mobilePart.querySelector('p').classList.add('pop-header-description');
+infos.style.marginLeft = '32px';
+image.classList.add('project_image');
+image.classList.add('pop-header-img');
+image.style.marginLeft = '32px';
+wrapper.appendChild(header);
+wrapper.appendChild(infos);
+wrapper.appendChild(image);
+wrapper.appendChild(mobilePart);
+
+wrapper.style.zIndex = '999';
+wrapper.style.position = 'absolute';
+wrapper.style.top = '0';
+
+wrapper.classList.add('pop-window');
+wrapper.style.visibility = "hidden";
+home.appendChild(wrapper);
+
+popUpBtn.forEach((btn) => {
+  btn.addEventListener('click', () => {
+    const parentId = btn.parentElement.parentElement.parentElement.id;
+    console.log(parentId);
+    title.innerHTML = projects[parentId].name;
+    infos.innerHTML = `${projects[parentId].generalInf[0]}  &bullet;  ${projects[parentId].generalInf[1]}  &bullet;  ${projects[parentId].generalInf[2]}`;
+    image.src = projects[parentId].img
+    description.innerHTML = projects[parentId].description;
+    skills.innerHTML = '';
+    projects[parentId].technolgies.forEach((element) => {
+      skills.innerHTML = `${skills.innerHTML}<li>${element} </li>`;
+    });;
+      
+    skills.classList.add('skills');
+    skills.classList.add('techns')
+      
+    home.style.backgroundColor = 'rgba(193, 199, 208, 1)';
+    wrapper.style.visibility = "visible";
+    body.style.overflow = "hidden";
   });
-
-  const popUpBtn = document.querySelectorAll('.external_link');
-  popUpBtn.forEach((btn) => {
-    btn.addEventListener('click', () => {
-      const btnSource = document.createElement('a');
-      const btnLive = document.createElement('a');
-      const externalButton = document.createElement('div');
-      const parentId = btn.parentElement.parentElement.parentElement.id;
-      const sectionTarget = document.getElementById(parentId);
-      const wrapper = document.createElement('div');
-      const home = document.querySelector('.home-page');
-      const cancelBtn = document.createElement('img');
-      const imgWrapper = document.createElement('div');
-      const header = document.createElement('div');
-      const title = sectionTarget.querySelector('h3');
-      const infos = sectionTarget.querySelectorAll('p')[0];
-      const img = sectionTarget.querySelector('img');
-      const description = sectionTarget.querySelector('.project_description');
-      const skills = sectionTarget.querySelector('.skills');
-      const bottom = document.createElement('div');
-      const mobilePart = document.createElement('div');
-
-      cancelBtn.src = './statics/images/Icon.svg';
-      imgWrapper.appendChild(cancelBtn);
-      imgWrapper.classList.add('pop-header-div');
-      title.classList.add('pop-header-h3');
-      header.appendChild(title);
-      title.style.marginLeft = '32px';
-      header.appendChild(imgWrapper);
-      header.classList.add('pop-header');
-
-      btnSource.innerHTML = '<img src="statics/images/gitbutton.png" alt="Live version"> ';
-      btnLive.innerHTML = '<img src="statics/images/Enabled.png" alt="Live version"> ';
-      externalButton.appendChild(btnLive);
-      externalButton.appendChild(btnSource);
-
-      bottom.appendChild(skills);
-      bottom.appendChild(externalButton);
-
-      description.innerHTML = projects[parentId].description;
-
-      mobilePart.appendChild(description);
-      mobilePart.appendChild(bottom);
-      mobilePart.classList.add('mobile-part-class');
-      mobilePart.querySelector('p').classList.add('pop-header-description');
-      infos.style.marginLeft = '32px';
-      img.classList.add('pop-header-img');
-      img.style.marginLeft = '32px';
-
-      wrapper.appendChild(header);
-      wrapper.appendChild(infos);
-      wrapper.appendChild(img);
-      wrapper.appendChild(mobilePart);
-
-      wrapper.style.zIndex = '999';
-      wrapper.style.position = 'fixed';
-      wrapper.style.top = '0';
-
-      wrapper.classList.add('pop-window');
-      home.style.backgroundColor = 'rgba(193, 199, 208, 1)';
-      home.appendChild(wrapper);
-
-      const cancel = document.querySelector('.pop-header-div');
-      cancel.addEventListener('click', () => {
-        document.querySelector('.pop-window').style.display = 'none';
-        home.style.backgroundColor = '#fff';
-      });
-    });
-  });
+});
+const cancel = document.querySelector('.pop-header-div');
+      
+cancel.addEventListener('click', () => {
+  document.querySelector('.pop-window').style.visibility = 'hidden';
+  home.style.backgroundColor = '#fff';
+  body.style.overflow = "auto";
 });
