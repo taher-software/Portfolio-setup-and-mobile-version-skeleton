@@ -247,7 +247,11 @@ h1:hover {
   border-radius: 50%;
 }
 
-.project_image { margin-top: 16px; }
+.project_image {
+  margin-top: 16px;
+  align-self: start;
+  margin-left: 24px;
+}
 
 .project_description {
   font-family: Poppins, sans-serif;
@@ -765,6 +769,68 @@ h1:hover {
   text-decoration-thickness: 2px;
 }
 
+.pop-window {
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  height: 100vh;
+  width: 95%;
+  margin-left: 2.5%;
+}
+
+.pop-header {
+  display: flex;
+  width: 100%;
+}
+
+.pop-header-div {
+  margin-top: 27px;
+  margin-right: 30px;
+}
+
+.pop-header-h3 {
+  margin-left: 16px;
+  margin-right: 200px;
+  margin-top: 12px;
+  margin-bottom: 0;
+  font-weight: bold;
+  font-size: 32px;
+  color: #172b4d;
+  font-family: Poppins, sans-serif;
+  line-height: 44px;
+}
+
+.mobile-part-class {
+  display: flex;
+  flex-direction: column;
+  margin-left: 32px;
+}
+
+.pop-header-img {
+  width: 80%;
+  margin-top: 0;
+}
+
+.techns {
+  display: flex;
+  align-items: baseline;
+  justify-content: flex-start;
+  padding-left: 0;
+  margin-left: 16px;
+}
+
+.inf {
+  display: flex;
+  font-family: Poppins, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  margin-top: 5px;
+  margin-left: 0;
+  color: #344563;
+}
+.pop-header-description { max-height: 45%; }
+
 @media screen and (min-width: 1024px) {
   .contact textarea {
     width: 309px;
@@ -939,6 +1005,7 @@ h1:hover {
     width: 95%;
     justify-self: center;
     margin-left: 16px;
+    align-self: center;
   }
 
   #general_inf_3 {
@@ -1036,5 +1103,36 @@ h1:hover {
       78.4% 61.58%,
       0;
     background-size: auto, auto, auto, auto, auto, auto, auto, auto, cover;
+  }
+
+  .pop-window {
+    height: 100vh;
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  .pop-header-div {
+    margin-right: 100px;
+    justify-content: flex-end;
+  }
+
+  .pop-header-h3 {
+    margin-left: 48px;
+    margin-right: 800px;
+  }
+
+  .mobile-part-class {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+
+  .pop-header-img {
+    width: auto;
+    height: auto;
+  }
+
+  .pop-header-description {
+    width: 65%;
   }
 }
