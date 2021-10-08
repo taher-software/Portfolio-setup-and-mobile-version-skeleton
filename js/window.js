@@ -216,7 +216,7 @@ function populateStorage() {
     name: form.elements.name.value,
     email: form.elements.email.value,
     message: form.elements.message.value,
-    };
+  };
   localStorage.setItem('userInput', JSON.stringify(userInput));
 }
 function setForm() {
