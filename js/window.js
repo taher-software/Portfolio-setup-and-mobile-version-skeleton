@@ -209,17 +209,17 @@ form.addEventListener('submit', (event) => {
 });
 /* save form data */
 const userName = form.elements.name;
-const userMail = form.elements.email;
+const userEmail = form.elements.email;
 const userMessage = form.elements.message;
 function populateStorage() {
-  localStorage.setItem('name', form.elements.name.value);
-  localStorage.setItem('mail', form.elements.email.value);
-  localStorage.setItem('message', form.elements.message.value);
+  const userInput = [form.elements.name.value, form.elements.email.value, form.elements.message.value];
+  localStorage.setItem('userInput', JSON.stringify(userInput));
 }
 function setForm() {
-  const currentUserName = localStorage.getItem('name');
-  const currentUserEmail = localStorage.getItem('mail');
-  const currentMessage = localStorage.getItem('message');
+  const storedInput = JSON.parse(localStorage.getItem('userInput'));
+  const currentUserName = storedInput[0];
+  const currentUserEmail = storedInput[1];
+  const currentMessage = storedInput[2];
 
   form.elements.name.value = currentUserName;
   form.elements.email.value = currentUserEmail;
@@ -231,5 +231,5 @@ if (localStorage.length === 0) {
   setForm();
 }
 userName.onchange = populateStorage;
-userMail.onchange = populateStorage;
+userEmail.onchange = populateStorage;
 userMessage.onchange = populateStorage;
