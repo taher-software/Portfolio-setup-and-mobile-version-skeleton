@@ -212,21 +212,22 @@ const userName = form.elements.name;
 const userEmail = form.elements.email;
 const userMessage = form.elements.message;
 function populateStorage() {
-  const userInput = [form.elements.name.value, form.elements.email.value,
-    form.elements.message.value];
+  const userInput = {name: form.elements.name.value,
+    email: form.elements.email.value,
+    message: form.elements.message.value};
   localStorage.setItem('userInput', JSON.stringify(userInput));
 }
 function setForm() {
   const storedInput = JSON.parse(localStorage.getItem('userInput'));
-  const currentUserName = storedInput[0];
-  const currentUserEmail = storedInput[1];
-  const currentMessage = storedInput[2];
+  const currentUserName = storedInput['name'];
+  const currentUserEmail = storedInput['email'];
+  const currentMessage = storedInput['message'];
 
   form.elements.name.value = currentUserName;
   form.elements.email.value = currentUserEmail;
   form.elements.message.value = currentMessage;
 }
-if (localStorage.length === 0) {
+if (!localStorage.getItem('userInput')) {
   populateStorage();
 } else {
   setForm();
