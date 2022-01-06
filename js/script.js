@@ -1,5 +1,11 @@
 const hamburger = document.querySelector('.hamburger');
 const body = document.querySelector('body');
+const showLanguage = document.querySelector('.show-language');
+const programmes = document.getElementById('programmes');
+const showFrameworks = document.querySelector('.show-frameworks');
+const frameworks = document.querySelector('.frams');
+const showSkills = document.querySelector('.show-skills');
+const skillsCards = document.getElementById('skills-cards');
 
 hamburger.addEventListener('click', () => {
   const div = document.createElement('div');
@@ -48,11 +54,84 @@ hamburger.addEventListener('click', () => {
     const eltChildren = linksChilds[i].children;
     eltChildren[0].addEventListener('click', () => {
       divWrap.style.display = 'none';
+      body.style.overflow = 'auto';
     });
     linksChilds[i].style.marginBottom = '20px';
     // for (const prop of Object.keys(property)) {
     for (let j = 0; j < Object.keys(property).length; j += 1) {
       eltChildren[0].style[Object.keys(property)[j]] = property[Object.keys(property)[j]];
     }
+  }
+});
+
+showLanguage.addEventListener('click', () => {
+  const hide = showLanguage.querySelector('.hide');
+  const show = showLanguage.querySelector('.show');
+  const hideFrame = showFrameworks.querySelector('.hide');
+  const showFrame = showFrameworks.querySelector('.show');
+  const hideSk = showSkills.querySelector('.hide');
+  const showSk = showSkills.querySelector('.show');
+  if(hide.style.display !== 'none'){
+    hide.style.display = 'none';
+    show.style.display = 'block';
+    programmes.style.display = 'none';
+  } else {
+    hide.style.display = 'block';
+    show.style.display = 'none';
+    programmes.style.display = 'flex';
+    frameworks.style.display = 'none';
+    showFrame.style.display = 'block';
+    hideFrame.style.display = 'none';
+    skillsCards.style.display = 'none';
+    hideSk.style.display = 'none';
+    showSk.style.display = 'block';
+  }
+});
+
+showFrameworks.addEventListener('click', () => {
+  const hide = showFrameworks.querySelector('.hide');
+  const show = showFrameworks.querySelector('.show');
+  const hideProgram =showLanguage.querySelector('.hide');
+  const showProgram = showLanguage.querySelector('.show');
+  const hideSk = showSkills.querySelector('.hide');
+  const showSk = showSkills.querySelector('.show');
+  if(hide.style.display !== 'none'){
+    hide.style.display = 'none';
+    show.style.display = 'block';
+    frameworks.style.display = 'none';
+  } else {
+    hide.style.display = 'block';
+    show.style.display = 'none';
+    frameworks.style.display = 'flex';
+    programmes.style.display = 'none';
+    showProgram.style.display = 'block';
+    hideProgram.style.display = 'none';
+    skillsCards.style.display = 'none';
+    showSk.style.display = 'block';
+    hideSk.style.display = 'none';
+  }
+});
+
+showSkills.addEventListener('click', () => {
+  const hide = showSkills.querySelector('.hide');
+  const show = showSkills.querySelector('.show');
+  const hideProgram =showLanguage.querySelector('.hide');
+  const showProgram = showLanguage.querySelector('.show');
+  const hideFrame = showFrameworks.querySelector('.hide');
+  const showFrame = showFrameworks.querySelector('.show');
+  if(hide.style.display !== 'none'){
+    hide.style.display = 'none';
+    show.style.display = 'block';
+    skillsCards.style.display = 'none';
+  } else {
+    hide.style.display = 'block';
+    show.style.display = 'none';
+    skillsCards.style.display = 'flex';
+    frameworks.style.display = 'none';
+    programmes.style.display = 'none';
+    showProgram.style.display = 'block';
+    hideProgram.style.display = 'none';
+    showFrame.style.display = 'block';
+    hideFrame.style.display = 'none';
   }
 });

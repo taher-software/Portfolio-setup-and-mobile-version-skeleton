@@ -1,46 +1,172 @@
 const projects = {
   p1: {
-    name: 'Tonic',
-    description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essent',
-    img: 'statics/images/Snapshoot_Portfolio.png',
-    technolgies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
-    generalInf: ['CANOPY', 'Back End Dev', 2015],
+    name: 'Vaccine Covid Worldwide tracker',
+    description: 'In this project, we have built a mobile web application to track vaccination rate in each country around the world. It provides the latest update of the vaccination rate for each country. Besides, it allows to breakdown each rate vaccination of each country by region and town and display bar chart for the main vaccine indicators .',
+    img: 'statics/images/vaccine .gif',
+    technolgies: ['React', 'Redux', 'JavaScript', 'API', 'CSS3', 'html5'],
+    linkToLiveVersion: 'https://worldwide-vaccination-tracker.netlify.app/',
+    linkToSource: 'https://github.com/Taher-web-dev/Vaccine-Covid-Worldwide-tracker',
+    generalInf: ['Microverse', 'Software developer', 2021],
   },
   p2: {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    img: 'statics/images/Snapshoot_Portfolio1.png',
-    technolgies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
-    generalInf: ['FACEBOOK', 'Full Stack Dev', 2015],
+    name: 'Optiver Realized Volatility Prediction',
+    description: 'In financial markets, volatility captures the amount of fluctuation in prices. For trading firms like Optiver, accurately predicting volatility is essential for the trading of options, whose price is directly related to the volatility of the underlying product.In this Kaggle competition,we had built models that predict short-term volatility for hundreds of stocks across different sectors. Our models will be evaluated against real market data collected in the three-month evaluation period after training.',
+    img: 'statics/images/optiver_project.jpeg',
+    technolgies: ['Python', 'Scikit-learn', 'Seaborn', 'LGBM'],
+    linkToLiveVersion: 'https://www.kaggle.com/c/optiver-realized-volatility-prediction/code?competitionId=27233&sortBy=dateRun&tab=profile',
+    linkToSource: 'https://github.com/Taher-web-dev/Optiver-Realized-Volatility-Prediction',
+    generalInf: ['Optiver', 'Data scientist competitor', 2021],
   },
   p3: {
-    name: 'Tonic',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    img: 'statics/images/Snapshoot_Portfolio2.png',
-    technolgies: ['html', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
-    generalInf: ['CANOPY', 'Back End Dev', 2015],
+    name: 'Space Travelers Hub',
+    description: 'In this project, we have built a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.',
+    img: 'statics/images/space_hub.gif',
+    technolgies: ['React', 'Redux', 'javascript','API','CSS3','html5'],
+    linkToLiveVersion: 'https://space-hub-taher.netlify.app/',
+    linkToSource: 'https://github.com/Taher-web-dev/Space-Travelers-Hub',
+    generalInf: ['Microverse', 'Software developer', 2021],
   },
   p4: {
-    name: 'Multi-Post Stories',
-    description: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
-    img: 'statics/images/Snapshoot_Portfolio3.png',
-    technolgies: ['html', 'Ruby on rails', 'css', 'javascript'],
-    linkToLiveVersion: '#',
-    linkToSource: '#',
-    generalInf: ['FACEBOOK', 'Full Stack Dev', 2015],
+    name: 'CommonLit Readability Prize',
+    description: 'CommonLit, Inc., is a nonprofit education technology organization serving over 20 million teachers and students with free digital reading and writing lessons for grades 3-12. Together with Georgia State University, an R1 public research university in Atlanta, they are challenging Kagglers to improve readability rating methods. In this competition, we had built algorithms to rate the complexity of reading passages for grade 3-12 classroom use. To accomplish this, we had used state of the art machine learning tools with a dataset that includes readers from a wide variety of age groups and a large collection of texts taken from various domains.',
+    img: 'statics/images/commonlit-readability-prize.jpg',
+    technolgies: ['Python', 'Pytorch', 'LSTM','CNN','Bert','Roberta','LGBM','SVM'],
+    linkToLiveVersion: 'https://www.kaggle.com/c/commonlitreadabilityprize/code?competitionId=25914&sortBy=dateRun&tab=profile',
+    linkToSource: 'https://github.com/Taher-web-dev/CommonLit-Readability-Prize',
+    generalInf: ['CommonLit', 'Data scientist competitor', 2021],
+  },
+  p5: {
+    name: 'Tunisa Covid Tracker',
+    description: 'In this project, we have built a mobile web application to track covid situation in Tunisia. It provides the latest update of the main indicators. Besides, it allows to breakdown each indicators and display chart evolving of each one within the current month.',
+    img: 'statics/images/covid app.gif',
+    technolgies: ['React', 'Redux', 'JavaScript', 'API', 'CSS3', 'html5'],
+    linkToLiveVersion: 'https://tunisia-covid-tracker.herokuapp.com/',
+    linkToSource: 'https://github.com/Taher-web-dev/Tunisa-Covid-Live-App',
+    generalInf: ['Microverse', 'Software developer', 2021],
+  },
+  p6: {
+    name: 'Shopee - Price Match Guarantee',
+    description: 'Retail companies use a variety of methods to assure customers that their products are the cheapest. Among them is product matching, which allows a company to offer products at rates that are competitive to the same product sold by another retailer. Shopee is the leading e-commerce platform in Southeast Asia and Taiwan. Customers appreciate its easy, secure, and fast online shopping experience tailored to their region. The company also provides strong payment and logistical support along with a \'Lowest Price Guaranteed\' feature on thousands of Shopee\'s listed products. In this competition, we had been requested to build a model that predicts which items are the same products for Shopee company.',
+    img: 'statics/images/shopee.png',
+    technolgies: ['Python', 'Tensorflow', 'Sckit-learn', 'Rapids', 'bert', 'Effnet','Arcface'],
+    linkToLiveVersion: 'https://www.kaggle.com/c/shopee-product-matching/code?competitionId=24286&sortBy=dateRun&tab=profile',
+    linkToSource: 'https://github.com/Taher-web-dev/Shopee---Price-Match-Guarantee',
+    generalInf: ['Shopee', 'Data scientist competitor', 2021],
+  },
+  p7: {
+    name: 'Web development course app',
+    description: 'A simple responsive site for a CMS course conference. ',
+    img: 'statics/images/overview.png',
+    technolgies: ['JavaScript', 'CSS3', 'html5'],
+    linkToLiveVersion: 'https://taher-web-dev.github.io/Web-dev-course-app/',
+    linkToSource: 'https://github.com/Taher-web-dev/Web-dev-course-app',
+    generalInf: ['Microverse', 'Software developer', 2021],
+  },
+  p8: {
+    name: 'Natural Language Processing with Disaster Tweets',
+    description: 'Twitter has become an important communication channel in times of emergency. The ubiquitousness of smartphones enables people to announce an emergency they’re observing in real-time. Because of this, more agencies are interested in programatically monitoring Twitter (i.e. disaster relief organizations and news agencies). In this competition, we’re challenged to build a machine learning model that predicts which Tweets are about real disasters and which one’s aren’t. We had access to a dataset of 10,000 tweets that were hand classified.',
+    img: 'statics/images/disasater_tweet.jpeg',
+    technolgies: ['Python', 'Pytorch', 'Tensorfow', 'LSTM', 'NaiveBayes','Gloves','Bert','t-sne'],
+    linkToLiveVersion: 'https://www.kaggle.com/c/nlp-getting-started/code?competitionId=17777&sortBy=dateRun&tab=profile',
+    linkToSource: 'https://github.com/Taher-web-dev/Natural-Language-Processing-with-Disaster-Tweets',
+    generalInf: ['Kaggle', 'Data scientist competitor', 2021],
+  },
+  p18: {
+    name: 'Chicken Meals!',
+    description: 'a Meals application with javascript and API.',
+    img: 'statics/images/meals.png',
+    technolgies: ['Javascript', 'API', 'Webpack', 'jest', 'css3','kanban'],
+    linkToLiveVersion: 'https://chiken-meals.netlify.app/',
+    linkToSource: 'https://github.com/Taher-web-dev/JS_Cap',
+    generalInf: ['Microverse', 'Software developer', 2021],
+  },
+  p9: {
+    name: 'Riiid Answer Correctness Prediction',
+    description: 'Riiid Labs, an AI solutions provider delivering creative disruption to the education market, empowers global education players to rethink traditional ways of learning leveraging AI. With a strong belief in equal opportunity in education, Riiid launched an AI tutor based on deep-learning algorithms in 2017 that attracted more than one million South Korean students. On 2021, the company released EdNet, the world’s largest open database for AI education containing more than 100 million student interactions. In this competition, our challenge is to create algorithms for "Knowledge Tracing," the modeling of student knowledge over time. The goal is to accurately predict how students will perform on future interactions.',
+    img: 'statics/images/riid.png',
+    technolgies: ['Python', 'Scikit', 'Keras', 'LGBM', 'KMeans'],
+    linkToLiveVersion: 'https://www.kaggle.com/c/riiid-test-answer-prediction/code?competitionId=21651&sortBy=dateRun&tab=profile',
+    linkToSource: 'https://github.com/Taher-web-dev/Riiid-Answer-Correctness-Prediction',
+    generalInf: ['Riiid', 'Data scientist competitor', 2020],
+  },
+  p10: {
+    name: 'Bengali.AI Handwritten Grapheme Classification',
+    description: 'Bengali is the 5th most spoken language in the world with hundreds of million of speakers. It’s the official language of Bangladesh and the second most spoken language in India. Considering its reach, there’s significant business and educational interest in developing AI that can optically recognize images of the language handwritten. This challenge hopes to improve on approaches to Bengali recognition. Bangladesh-based non-profit Bengali.AI is focused on helping to solve this problem. They build and release crowdsourced, metadata-rich datasets and open source them through research competitions. Through this work, Bengali.AI hopes to democratize and accelerate research in Bengali language technologies and to promote machine learning education. For this competition, we’re given the image of a handwritten Bengali grapheme and are challenged to separately classify three constituent elements in the image: grapheme root, vowel diacritics, and consonant diacritics.',
+    img: 'statics/images/bengali.png',
+    technolgies: ['Python', 'Opencv', 'Keras'],
+    linkToLiveVersion: 'https://www.kaggle.com/c/bengaliai-cv19/code?competitionId=14897&sortBy=dateRun&tab=profile',
+    linkToSource: 'https://github.com/Taher-web-dev/Bengali.AI-Handwritten-Grapheme-Classification',
+    generalInf: ['Bengali.AI', 'Data scientist competitor', 2020],
+  },
+  p11: {
+    name: 'ASHRAE - Great Energy Predictor III',
+    description: 'Thankfully, significant investments are being made to improve building efficiencies to reduce costs and emissions. The question is, are the improvements working? In this competition, we had developed accurate models of metered building energy usage in the following areas: chilled water, electric, hot water, and steam meters. The data comes from over 1,000 buildings over a three-year timeframe. With better estimates of these energy-saving investments, large scale investors and financial institutions will be more inclined to invest in this area to enable progress in building efficiencies.',
+    img: 'statics/images/ashrae.png',
+    technolgies: ['Python', 'Scikit-learn', 'XGBoost'],
+    linkToLiveVersion: 'https://www.kaggle.com/c/ashrae-energy-prediction/code?competitionId=9994&sortBy=dateRun&tab=profile',
+    linkToSource: 'https://github.com/Taher-web-dev/ASHRAE---Great-Energy-Predictor-III',
+    generalInf: ['ASHRAE ', 'Data scientist competitor', 2019],
+  },
+  p12: {
+    name: 'Develop a proof of concept',
+    description: 'This project aim to give new approach , state of the art in order to ameliorate the results obtained in the project titled Perform automatic image indexing. Indeed we adopt new approach in this project consist to use an algorhitm Mask RCNN combined to a classical convnet in order to classify dog breed based on his photo.',
+    img: 'statics/images/poc.jpeg',
+    technolgies: ['Python', 'Opencv', 'Keras','Mask R-CNN','VGG16'],
+    linkToLiveVersion: 'https://github.com/Taher-web-dev/Develop-a-proof-of-concept',
+    linkToSource: 'https://github.com/Taher-web-dev/Develop-a-proof-of-concept',
+    generalInf: ['CentraleSupélec', 'Data scientist', 2019],
+  },
+  p13: {
+    name: 'Perform automatic image indexing',
+    description: 'This project intends to provide a python application , which allow to detect the dog breed based on his image provided by his owner.',
+    img: 'statics/images/dog.jpg',
+    technolgies: ['Python', 'Opencv', 'SIFT', 'Kmeans','SVM','VGG16','Keras'],
+    linkToLiveVersion: 'https://github.com/Taher-web-dev/Perform-automatic-image-indexing',
+    linkToSource: 'https://github.com/Taher-web-dev/Perform-automatic-image-indexing',
+    generalInf: ['CentraleSupélec', 'Data scientist', 2019],
+  },
+  p14: {
+    name: 'Automatically categorize questions',
+    description: 'This project intend to develop a suggest tag system to the site Stack Overflow . This site is a well known site of question-reply in the informatic field, so to make question in this site we should enter various tags which allow to easy find the question. Our goal is to test a supervised and unsupervised approachs , which will allow to assign automaticaly tags for a question. Then , we carry out a comparison of the results obtained from the two approachs . Besides we develop an API , which allow to assign tags to each introduced question based on the two tested approachs .',
+    img: 'statics/images/stackoverflow.png',
+    technolgies: ['Python', 'NLTK', 'LDA','flask','SQL'],
+    linkToLiveVersion: 'https://github.com/Taher-web-dev/Perform-automatic-image-indexing',
+    linkToSource: 'https://github.com/Taher-web-dev/Perform-automatic-image-indexing',
+    generalInf: ['CentraleSupélec', 'Data scientist competitor', 2019],
+  },
+  p15: {
+    name: 'Segment customer behavior',
+    description: 'The British company Datazon, leader in the online sale of all kinds of items, has every interest in better understanding the behavior of its customers to increase the frequency of purchase and the value of the average basket.The goal is to understand the different types of users through their behavior over time, in order to detect those most likely to make a purchase.',
+    img: 'statics/images/datazon.png',
+    technolgies: ['Python', 'KMeans', 'RandomForest', 'KNN','SVM'],
+    linkToLiveVersion: 'https://github.com/Taher-web-dev/segment-customer-behavior',
+    linkToSource: 'https://github.com/Taher-web-dev/segment-customer-behavior',
+    generalInf: ['CentraleSupélec', 'Data scientist', 2019],
+  },
+  p16: {
+    name: 'Anticipate the flight delay of planes',
+    description: 'In order to optimize logistics and anticipate delays, AirData company asks to analyze the data provided to assess the behavior of the various existing aviation companies.This evaluation will make it possible to derive a first model to predict delays from the variables provided.',
+    img: 'statics/images/airdata.png',
+    technolgies: ['Python', 'KNN', 'SVM','flask','Heroku'],
+    linkToLiveVersion: 'https://prediction-retard-avions.herokuapp.com/',
+    linkToSource: 'https://github.com/Taher-web-dev/-Anticipate-aircraft-flight-delays',
+    generalInf: ['CentraleSupélec', 'Data scientist competitor', 2019],
+  },
+  p17: {
+    name: 'Develop a movie recommendation engine',
+    description: 'A site on the cinema, They would like to launch a movie recommendations engine to save the movie nights of their future customers. Our mission is using unsupervised methods we will need to build an API capable of returning 5 recommendations of similar and interesting movies to the viewer. This from a request for a movie name (or id).',
+    img: 'statics/images/cinema.jpg',
+    technolgies: ['Python', 'Kmeans', 'Seaborn','flask','PCA'],
+    linkToLiveVersion: 'https://github.com/Taher-web-dev/-Develop-a-movie-recommendation-engine',
+    linkToSource: 'https://github.com/Taher-web-dev/-Develop-a-movie-recommendation-engine',
+    generalInf: ['CentraleSupélec', 'Data scientist competitor', 2018],
   },
 };
 
 const myWork = document.querySelector('#my_work');
 
 function createMobileProjectCard(key) {
-  const projectSection = document.createElement('section');
+  const projectSection = document.createElement('div');
   const img = document.createElement('img');
   const general = document.createElement('div');
   const infGeneral = document.createElement('div');
@@ -51,6 +177,8 @@ function createMobileProjectCard(key) {
   const btnLoad = document.createElement('a');
   const footer = document.createElement('footer');
   const externalLink = document.createElement('div');
+  const descriptionList = projects[key].description.split(' ');
+  const descriptionNbrWords = descriptionList.length;
   externalLink.appendChild(btnLoad);
   externalLink.classList.add('external_link');
   footer.appendChild(techns);
@@ -70,19 +198,20 @@ function createMobileProjectCard(key) {
   title.innerHTML = projects[key].name;
   inf.innerHTML = `${projects[key].generalInf[0]}  &bullet;  ${projects[key].generalInf[1]}  &bullet;  ${projects[key].generalInf[2]}`;
   inf.classList.add('title');
-  description.innerHTML = projects[key].description.substring(0, Math.max(130,
-    Math.floor(0.4 * projects[key].description.length)));
+  description.innerHTML = descriptionList.slice(0, Math.min(17, Math.floor(0.4 * descriptionNbrWords))).join(' ');
+  description.innerHTML += '...';
+
   description.classList.add('project_description');
 
   projects[key].technolgies.forEach((element) => {
     techns.innerHTML = `${techns.innerHTML}<li>${element} </li>`;
   });
   techns.classList.add('skills');
-  techns.id = 'skills_0';
   btnLoad.innerHTML = 'See Project';
   btnLoad.href = '#';
   projectSection.appendChild(general);
-  projectSection.id = key;
+  projectSection.key = key;
+  projectSection.className = 'project';
 
   return projectSection;
 }
@@ -110,6 +239,9 @@ imgWrapper.classList.add('pop-header-div');
 cancelBtn.src = './statics/images/Icon.svg';
 imgWrapper.appendChild(cancelBtn);
 
+btnSource.target = '_blank';
+btnLive.target = '_blank';
+
 description.classList.add('project_description');
 
 infos.classList.add('inf');
@@ -126,6 +258,7 @@ btnSource.innerHTML = '<img src="statics/images/gitbutton.png" alt="Live version
 btnLive.innerHTML = '<img src="statics/images/Enabled.png" alt="Live version"> ';
 externalButton.appendChild(btnLive);
 externalButton.appendChild(btnSource);
+externalButton.style.marginBottom = '32px';
 
 bottom.appendChild(skills);
 bottom.appendChild(externalButton);
@@ -153,18 +286,17 @@ home.appendChild(wrapper);
 
 popUpBtn.forEach((btn) => {
   btn.addEventListener('click', () => {
-    const parentId = btn.parentElement.parentElement.parentElement.id;
-    console.log(parentId);
+    const parentId = btn.parentElement.parentElement.parentElement.key;
     title.innerHTML = projects[parentId].name;
     infos.innerHTML = `${projects[parentId].generalInf[0]}  &bullet;  ${projects[parentId].generalInf[1]}  &bullet;  ${projects[parentId].generalInf[2]}`;
     image.src = projects[parentId].img;
-    description.innerHTML = projects[parentId].description.substring(0,
-      Math.min(250, projects[parentId].description.length));
+    description.innerHTML = projects[parentId].description;
     skills.innerHTML = '';
     projects[parentId].technolgies.forEach((element) => {
       skills.innerHTML = `${skills.innerHTML}<li>${element} </li>`;
     });
-
+    btnSource.href = projects[parentId].linkToSource;
+    btnLive.href = projects[parentId].linkToLiveVersion;
     skills.classList.add('skills');
     skills.classList.add('techns');
 
@@ -172,6 +304,7 @@ popUpBtn.forEach((btn) => {
     wrapper.style.visibility = 'visible';
 
     wrapper.style.position = 'fixed';
+    wrapper.style.overflow = 'scroll';
   });
 });
 const cancel = document.querySelector('.pop-header-div');
