@@ -2,7 +2,7 @@
 
 # Portfolio: setup and mobile version skeleton
 
-For this repository, I've created html templates and styling files in order to built my responsive portfolio mobile version and desktop version, in which I can ease to my future recruiter matching my profile with his needs.
+For this repository, I've created html templates and styling files in order to built a responsive portfolio ,  which can help to easy explorate  profiles from differents devices.
 
 ![home_page](https://github.com/Taher-web-dev/Portfolio-setup-and-mobile-version-skeleton/blob/work_about_myself/statics/images/screenshot_home_page.png)
 
