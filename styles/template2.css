@@ -185,6 +185,8 @@ footer h3:hover {
   margin-top: 32px;
   align-self: start;
   margin-left: 24px;
+  max-width: calc(100% - 48px);
+  min-height: 110px;
 }
 
 .project_description {
@@ -196,6 +198,7 @@ footer h3:hover {
   color: #344563;
   margin-top: 5px;
   text-align: justify;
+  margin-right: 30px;
 }
 
 .general {
@@ -218,6 +221,7 @@ footer h3:hover {
   align-items: baseline;
   justify-content: flex-start;
   padding-left: 0;
+  overflow: auto;
 }
 
 .skills li {
@@ -230,8 +234,9 @@ footer h3:hover {
   font-size: 12px;
   line-height: 16px;
   color: #6070ff;
-  padding: 5px 15px;
   list-style: none;
+  flex: 1;
+  text-align: center;
 }
 
 .external_link {
@@ -685,7 +690,7 @@ footer h3:hover {
   color: #172b4d;
   font-family: Poppins, sans-serif;
   line-height: 44px;
-  width: 328px;
+  max-width: 200px;
 }
 
 .mobile-part-class {
@@ -1002,7 +1007,7 @@ span {
 
   .pop-header-h3 {
     margin-left: 48px;
-    margin-right: 60%;
+    margin-right: 71%;
     width: 328px;
   }
 
