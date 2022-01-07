@@ -461,7 +461,7 @@ footer h3:hover {
 
 #my_skills p {
   align-self: flex-start;
-  margin: 0 10% 0 0;
+  margin: 15px 10% 0 15px;
   font-family: Poppins, sans-serif;
   font-style: normal;
   font-weight: 500;
@@ -510,11 +510,12 @@ footer h3:hover {
 #programmes .pro p {
   font-family: Poppins, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 500 ;
   font-size: 15px;
   line-height: 20px;
   color: #253858;
   margin-left: 15px;
+  margin-top: 15px;
 }
 
 #skills-cards .pro p {
@@ -528,13 +529,13 @@ footer h3:hover {
 }
 
 .frameworks-skills .pro p {
-  font-family: Poppins, sans-serif;
-  font-style: normal;
-  font-weight: 500;
-  font-size: 15px;
-  line-height: 20px;
-  color: #253858;
-  margin-left: 15px;
+  font-family: Poppins, sans-serif !important;
+  font-style: normal !important;
+  font-weight: 500 !important;
+  font-size: 15px !important;
+  line-height: 20px !important;
+  color: #253858 !important;
+  margin-left: 15px !important;
 }
 
 .final_wrap {
@@ -684,7 +685,7 @@ footer h3:hover {
   margin-left: 16px;
   margin-top: 12px;
   margin-bottom: 0;
-  margin-right: 20%;
+  margin-right: 35%;
   font-weight: bold;
   font-size: 32px;
   color: #172b4d;
@@ -950,9 +951,19 @@ span {
     justify-content: flex-start;
     height: 100px;
     width: 102px;
+    align-items: center;
   }
-
-  .pro img { align-self: flex-start; }
+  
+  .pro p{
+    font-family: Poppins, sans-serif !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 15px !important;
+    line-height: 20px !important;
+    color: #253858 !important;
+    margin-left: 15px !important;
+    margin-top: 15px !important;
+  }
 
   #frameworks { justify-content: space-between; }
 
@@ -1048,5 +1059,8 @@ span {
     list-style: none;
     text-align: center;
     flex: 1;
-  } 
+  }
+  #my_skills p {
+    align-self: center;
+  }
 }
