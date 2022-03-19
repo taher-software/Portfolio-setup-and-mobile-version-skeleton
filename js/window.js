@@ -1,4 +1,13 @@
 const projects = {
+  p19: {
+    name: 'My Money',
+    description: 'My-Money is a mobile web application where everyone can manage his budget: there are a list of transactions associated with a category, so that user can see how much money he spent and on what.',
+    img: 'statics/images/my_money.gif',
+    technolgies: ['Rails', 'Ruby', 'postgresql', 'bootstrap', 'CSS3', 'html5'],
+    linkToLiveVersion: 'https://optimize-my-budget.herokuapp.com/',
+    linkToSource: 'https://github.com/Taher-web-dev/My-Money',
+    generalInf: ['Microverse', 'Software developer', 2022],
+  },
   p1: {
     name: 'Vaccine Covid Worldwide tracker',
     description: 'In this project, we have built a mobile web application to track vaccination rate in each country around the world. It provides the latest update of the vaccination rate for each country. Besides, it allows to breakdown each rate vaccination of each country by region and town and display bar chart for the main vaccine indicators .',
