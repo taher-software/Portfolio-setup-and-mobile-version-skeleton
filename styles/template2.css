@@ -451,6 +451,7 @@ footer h3:hover {
   margin-top: 0;
 }
 
+
 .pro {
   list-style: none;
   display: flex;
@@ -1062,5 +1063,9 @@ span {
   }
   #my_skills p {
     align-self: center;
+  }
+
+  .last {
+    margin-left: 42.5%;
   }
 }

@@ -1,4 +1,14 @@
 const projects = {
+  p20: {
+    name: 'Car Rental',
+    description: 'Car Rental is a car service Webapp where admin can manage car items. User can navigate smoothly across the different pages, where he can explore all cars options and details, make a reservation and add likes for a selected item and with his specific details.',
+    img: 'https://github.com/Taher-web-dev/car-rent-front-end/blob/develop/public/mobile-details.PNG?raw=true',
+    technolgies: ['Rails', 'Ruby','React','Redux', 'postgresql', 'Javascript', 'API REST', 'bootstrap', 'CSS3', 'html5'],
+    linkToLiveVersion: 'https://mic-car-rental.netlify.app/',
+    linkToSource: 'https://github.com/Taher-web-dev/car-rent-front-end',
+    generalInf: ['Microverse', 'Software developer', 2022],
+  },
+
   p19: {
     name: 'My Money',
     description: 'My-Money is a mobile web application where everyone can manage his budget: there are a list of transactions associated with a category, so that user can see how much money he spent and on what.',
