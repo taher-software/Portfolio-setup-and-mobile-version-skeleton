@@ -1,4 +1,22 @@
 const projects = {
+  p22: {
+    name: 'MYWEEKWEATHER',
+    description: 'MYWEEKWEATHER is a mobile web application, which can detect the current location of the user and display a weather forecast for the next seven days. The user can also pick any other place in the world and check its weather prediction for the same period.',
+    img: 'https://github.com/Taher-web-dev/MYWEEKWEATHER/blob/main/src/Statics/Images/overflow_weather%20.gif?raw=true',
+    technolgies: ['React','Redux', 'API REST', 'Javascript', 'JEST','CSS3', 'html5'],
+    linkToLiveVersion: 'https://myweekweather.netlify.app/',
+    linkToSource: 'https://github.com/Taher-web-dev/MYWEEKWEATHER',
+    generalInf: ['Microverse', 'Software developer', 2022],
+  },
+  p21: {
+    name: 'Shop-analytics',
+    description: "In physical shop retail, the merchant don't has options which are available in e-commerce shop, that can help to identify visitor and provide customized visit for him in order to optimize the chance to his conversion to buy. This project, uses face recognition to help merchant get history informations about each new visitor, which can help to provide him a customized and guided visit, therefore optimize incomes of the shop.",
+    img: 'https://static.hkej.com/eji/images/2017/01/25/1480835_fda9546192e86b73e3c71a67831cd27e.jpg',
+    technolgies: ['OpenCV', 'Python','dlib','openface'],
+    linkToLiveVersion: 'https://github.com/Taher-web-dev/Shop-analytics',
+    linkToSource: 'https://github.com/Taher-web-dev/Shop-analytics',
+    generalInf: ['Own project', 'Data scientist', 2022],
+  },
   p20: {
     name: 'Car Rental',
     description: 'Car Rental is a car service Webapp where admin can manage car items. User can navigate smoothly across the different pages, where he can explore all cars options and details, make a reservation and add likes for a selected item and with his specific details.',
